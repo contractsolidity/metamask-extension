@@ -190,7 +190,7 @@ const EthOverview = ({ className, showAddress }) => {
       }
       buttons={
         <>
-          {
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
             <IconButton
               className="eth-overview__button"
@@ -218,13 +218,13 @@ const EthOverview = ({ className, showAddress }) => {
               }}
             />
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
 
-          {
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-mmi)
             renderInstitutionalButtons()
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
 
           <IconButton
             className="eth-overview__button"
@@ -254,7 +254,7 @@ const EthOverview = ({ className, showAddress }) => {
               });
             }}
           />
-          <IconButton
+          {/* <IconButton
             className="eth-overview__button"
             disabled={!isSwapsChain}
             Icon={
@@ -305,8 +305,8 @@ const EthOverview = ({ className, showAddress }) => {
                     </Tooltip>
                   )
             }
-          />
-          {
+          /> */}
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
             <IconButton
               className="eth-overview__button"
@@ -354,8 +354,8 @@ const EthOverview = ({ className, showAddress }) => {
               }
             />
             ///: END:ONLY_INCLUDE_IN
-          }
-          {
+          } */}
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
             <IconButton
               className="eth-overview__button"
@@ -387,7 +387,7 @@ const EthOverview = ({ className, showAddress }) => {
               }}
             />
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
         </>
       }
       className={className}

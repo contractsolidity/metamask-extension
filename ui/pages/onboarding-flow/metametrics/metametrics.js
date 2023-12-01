@@ -84,12 +84,12 @@ export default function OnboardingMetametrics() {
       >
         {t('onboardingMetametricsTitle')}
       </Typography>
-      <Typography
+      {/* <Typography
         className="onboarding-metametrics__desc"
         align={TEXT_ALIGN.CENTER}
       >
         {t('onboardingMetametricsDescription')}
-      </Typography>
+      </Typography> */}
       <Typography
         className="onboarding-metametrics__desc"
         align={TEXT_ALIGN.CENTER}
@@ -172,15 +172,15 @@ export default function OnboardingMetametrics() {
           </Box>{' '}
         </li>
       </ul>
-      <Typography
+      {/* <Typography
         color={TextColor.textAlternative}
         align={TEXT_ALIGN.CENTER}
         variant={TypographyVariant.H6}
         className="onboarding-metametrics__terms"
       >
         {t('onboardingMetametricsDataTerms')}
-      </Typography>
-      <Typography
+      </Typography> */}
+      {/* <Typography
         color={TextColor.textAlternative}
         align={TEXT_ALIGN.CENTER}
         variant={TypographyVariant.H6}
@@ -204,7 +204,7 @@ export default function OnboardingMetametrics() {
             {t('onboardingMetametricsInfuraTermsPolicy')}
           </a>,
         ])}
-      </Typography>
+      </Typography> */}
 
       <div className="onboarding-metametrics__buttons">
         <Button

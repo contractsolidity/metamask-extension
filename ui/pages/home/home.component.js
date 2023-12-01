@@ -847,7 +847,7 @@ export default class Home extends PureComponent {
                         history.push(`${ASSET_ROUTE}/${asset}`)
                       }
                     />
-                    {
+                    {/* {
                       ///: BEGIN:ONLY_INCLUDE_IN(build-main)
                       <ButtonLink
                         size={Size.MD}
@@ -864,7 +864,7 @@ export default class Home extends PureComponent {
                         {t('needHelpLinkText')}
                       </ButtonLink>
                       ///: END:ONLY_INCLUDE_IN
-                    }
+                    } */}
                   </Box>
                 </Tab>
                 <Tab
@@ -875,7 +875,7 @@ export default class Home extends PureComponent {
                   tabKey="nfts"
                 >
                   <NftsTab />
-                  {
+                  {/* {
                     ///: BEGIN:ONLY_INCLUDE_IN(build-main)
                     <ButtonLink
                       size={Size.MD}
@@ -892,7 +892,7 @@ export default class Home extends PureComponent {
                       {t('needHelpLinkText')}
                     </ButtonLink>
                     ///: END:ONLY_INCLUDE_IN
-                  }
+                  } */}
                 </Tab>
                 <Tab
                   activeClassName="home__tab--active"
@@ -902,7 +902,7 @@ export default class Home extends PureComponent {
                   tabKey="activity"
                 >
                   <TransactionList />
-                  {
+                  {/* {
                     ///: BEGIN:ONLY_INCLUDE_IN(build-main)
                     <ButtonLink
                       size={Size.MD}
@@ -919,7 +919,7 @@ export default class Home extends PureComponent {
                       {t('needHelpLinkText')}
                     </ButtonLink>
                     ///: END:ONLY_INCLUDE_IN
-                  }
+                  } */}
                 </Tab>
               </Tabs>
               {

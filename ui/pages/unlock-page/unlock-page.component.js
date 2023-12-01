@@ -165,7 +165,7 @@ export default class UnlockPage extends Component {
       <div className="unlock-page__container">
         <div className="unlock-page" data-testid="unlock-page">
           <div className="unlock-page__mascot-container">
-            <Mascot
+            {/* <Mascot
               animationEventEmitter={this.animationEventEmitter}
               width="120"
               height="120"
@@ -174,7 +174,8 @@ export default class UnlockPage extends Component {
               <div className="unlock-page__mascot-container__beta">
                 {t('beta')}
               </div>
-            ) : null}
+            ) : null} */}
+            <img src="./images/logo/logo.png" alt="" />
           </div>
           <h1 className="unlock-page__title">{t('welcomeBack')}</h1>
           <div>{t('unlockMessage')}</div>
@@ -204,7 +205,7 @@ export default class UnlockPage extends Component {
               {t('forgotPassword')}
             </Button>
           </div>
-          <div className="unlock-page__support">
+          {/* <div className="unlock-page__support">
             {t('needHelp', [
               <a
                 href={SUPPORT_LINK}
@@ -231,7 +232,7 @@ export default class UnlockPage extends Component {
                 {needHelpText}
               </a>,
             ])}
-          </div>
+          </div> */}
         </div>
       </div>
     );

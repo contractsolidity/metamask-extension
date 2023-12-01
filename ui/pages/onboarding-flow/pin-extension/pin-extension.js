@@ -89,7 +89,7 @@ export default function OnboardingPinExtension() {
           >
             {t('onboardingPinExtensionTitle')}
           </Text>
-          <Carousel
+          {/* <Carousel
             selectedItem={selectedIndex}
             showThumbs={false}
             showStatus={false}
@@ -118,7 +118,7 @@ export default function OnboardingPinExtension() {
                 alt=""
               />
             </div>
-          </Carousel>
+          </Carousel> */}
           <div className="onboarding-pin-extension__buttons">
             <Button
               data-testid={

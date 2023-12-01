@@ -121,7 +121,7 @@
     "message": "Access your wallet with your Secret Recovery Phrase"
   },
   "accessYourWalletWithSRPDescription": {
-    "message": "MetaMask cannot recover your password. We will use your Secret Recovery Phrase to validate your ownership, restore your wallet and set up a new password. First, enter the Secret Recovery Phrase that you were given when you created your wallet. $1",
+    "message": "NXN Wallet cannot recover your password. We will use your Secret Recovery Phrase to validate your ownership, restore your wallet and set up a new password. First, enter the Secret Recovery Phrase that you were given when you created your wallet. $1",
     "description": "$1 is the words 'Learn More' from key 'learnMore', separated here so that it can be added as a link"
   },
   "accessingYourCamera": {
@@ -187,7 +187,7 @@
     "message": "Add Account Snap"
   },
   "addAcquiredTokens": {
-    "message": "Add the tokens you've acquired using MetaMask"
+    "message": "Add the tokens you've acquired using NXN Wallet"
   },
   "addAlias": {
     "message": "Add alias"
@@ -202,10 +202,10 @@
     "message": "Add custom network"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "This will allow this network to be used within MetaMask."
+    "message": "This will allow this network to be used within NXN Wallet."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "MetaMask does not verify custom networks."
+    "message": "NXN Wallet does not verify custom networks."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Learn about $1.",
@@ -281,7 +281,7 @@
     "message": "Add NFTs"
   },
   "addSnapAccountModalDescription": {
-    "message": "Discover options to keep your account secure with MetaMask Snaps"
+    "message": "Discover options to keep your account secure with NXN Wallet Snaps"
   },
   "addSnapAccountToggle": {
     "message": "Enable \"Add account Snap (Beta)\""
@@ -334,7 +334,7 @@
     "message": "Priority fee (aka “miner tip”) goes directly to miners and incentivizes them to prioritize your transaction."
   },
   "agreeTermsOfUse": {
-    "message": "I agree to MetaMask's $1",
+    "message": "I agree to NXN Wallet's $1",
     "description": "$1 is the `terms` link"
   },
   "airgapVault": {
@@ -362,7 +362,7 @@
     "message": "All Connections"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "You have either already connected all your custodian accounts or don’t have any account to connect to MetaMask Institutional."
+    "message": "You have either already connected all your custodian accounts or don’t have any account to connect to NXN Wallet Institutional."
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "No accounts available to connect"
@@ -414,19 +414,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "NXN Wallet",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "NXN Wallet Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "NXN Wallet Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "NXN Wallet Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -503,7 +503,7 @@
     "message": "Auto-lock timer (minutes)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Set the idle time in minutes before MetaMask will become locked."
+    "message": "Set the idle time in minutes before NXN Wallet will become locked."
   },
   "average": {
     "message": "Average"
@@ -518,7 +518,7 @@
     "message": "Back up"
   },
   "backupApprovalInfo": {
-    "message": "This secret code is required to recover your wallet in case you lose your device, forget your password, have to re-install MetaMask, or want to access your wallet on another device."
+    "message": "This secret code is required to recover your wallet in case you lose your device, forget your password, have to re-install NXN Wallet, or want to access your wallet on another device."
   },
   "backupApprovalNotice": {
     "message": "Back up your Secret Recovery Phrase to keep your wallet and funds secure."
@@ -558,19 +558,19 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional Beta Version"
+    "message": "NXN Wallet Institutional Beta Version"
   },
   "betaMetamaskVersion": {
-    "message": "MetaMask Beta Version"
+    "message": "NXN Wallet Beta Version"
   },
   "betaTerms": {
     "message": "Beta Terms of use"
   },
   "betaWalletCreationSuccessReminder1": {
-    "message": "MetaMask Beta can’t recover your Secret Recovery Phrase."
+    "message": "NXN Wallet Beta can’t recover your Secret Recovery Phrase."
   },
   "betaWalletCreationSuccessReminder2": {
-    "message": "MetaMask Beta will never ask you for your Secret Recovery Phrase."
+    "message": "NXN Wallet Beta will never ask you for your Secret Recovery Phrase."
   },
   "blockExplorerAccountAction": {
     "message": "Account",
@@ -649,7 +649,7 @@
     "message": "Build your contact list"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask is designed and built around the world."
+    "message": "NXN Wallet is designed and built around the world."
   },
   "busy": {
     "message": "Busy"
@@ -727,7 +727,7 @@
     "description": "$1 is a link to the privacy policy"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "You need to use MetaMask on Google Chrome in order to connect to your Hardware Wallet."
+    "message": "You need to use NXN Wallet on Google Chrome in order to connect to your Hardware Wallet."
   },
   "clear": {
     "message": "Clear"
@@ -762,10 +762,10 @@
     "description": "Default text shown in the combo field dropdown if no options."
   },
   "configureSnapPopupDescription": {
-    "message": "You're now leaving MetaMask to configure this snap."
+    "message": "You're now leaving NXN Wallet to configure this snap."
   },
   "configureSnapPopupInstallDescription": {
-    "message": "You're now leaving MetaMask to install this snap."
+    "message": "You're now leaving NXN Wallet to install this snap."
   },
   "configureSnapPopupInstallTitle": {
     "message": "Install snap"
@@ -833,7 +833,7 @@
   },
   "connectTo": {
     "message": "Connect to $1",
-    "description": "$1 is the name/origin of a web3 site/application that the user can connect to metamask"
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to NXN Wallet"
   },
   "connectToAll": {
     "message": "Connect to all your $1",
@@ -852,7 +852,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Connect with MetaMask"
+    "message": "Connect with NXN Wallet"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "You have $1 accounts connected to this site.",
@@ -862,7 +862,7 @@
     "message": "You have 1 account connected to this site."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask is not connected to this site. To connect to a web3 site, find and click the connect button."
+    "message": "NXN Wallet is not connected to this site. To connect to a web3 site, find and click the connect button."
   },
   "connectedSites": {
     "message": "Connected sites"
@@ -876,7 +876,7 @@
     "description": "$1 is the account name"
   },
   "connectedSnapAndNoAccountDescription": {
-    "message": "MetaMask is connected to this site, but no accounts are connected yet"
+    "message": "NXN Wallet is connected to this site, but no accounts are connected yet"
   },
   "connectedaccount": {
     "message": "account"
@@ -932,7 +932,7 @@
     "message": "Continue"
   },
   "continueMmiOnboarding": {
-    "message": "Continue MetaMask Institutional onboarding"
+    "message": "Continue NXN Wallet Institutional onboarding"
   },
   "continueToWallet": {
     "message": "Continue to wallet"
@@ -974,7 +974,7 @@
     "message": "Token contract"
   },
   "convertTokenToNFTDescription": {
-    "message": "We've detected that this asset is an NFT. MetaMask now has full native support for NFTs. Would you like to remove it from your token list and add it as an NFT?"
+    "message": "We've detected that this asset is an NFT. NXN Wallet now has full native support for NFTs. Would you like to remove it from your token list and add it as an NFT?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "We’ve detected that this asset has been added as an NFT. Would you like to remove it from your token list?"
@@ -1062,7 +1062,7 @@
     "message": "Custodian"
   },
   "custodianAccountAddedDesc": {
-    "message": "You can now use your accounts in MetaMask Institutional."
+    "message": "You can now use your accounts in NXN Wallet Institutional."
   },
   "custodianAccountAddedTitle": {
     "message": "Selected $1 accounts have been added."
@@ -1071,7 +1071,7 @@
     "message": "Please go to $1 and click the 'Connect to MMI' button within their user interface to connect your accounts to MMI again."
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "You can now use your custodian accounts in MetaMask Institutional."
+    "message": "You can now use your custodian accounts in NXN Wallet Institutional."
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "Your custodian token has been refreshed"
@@ -1092,7 +1092,7 @@
     "message": "Please go to $1 and click the 'Connect to MMI' button within their user interface to connect your accounts to MMI again."
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "Your custodian issues a token that authenticates the MetaMask Institutional extension, allowing you to connect your accounts."
+    "message": "Your custodian issues a token that authenticates the NXN Wallet Institutional extension, allowing you to connect your accounts."
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "This token expires after a certain period for security reasons. This requires you to reconnect to MMI."
@@ -1240,22 +1240,22 @@
     "message": "Desktop App"
   },
   "desktopConnectionCriticalErrorDescription": {
-    "message": "This error could be intermittent, so try restarting the extension or disable MetaMask Desktop."
+    "message": "This error could be intermittent, so try restarting the extension or disable NXN Wallet Desktop."
   },
   "desktopConnectionCriticalErrorTitle": {
-    "message": "MetaMask had trouble starting"
+    "message": "NXN Wallet had trouble starting"
   },
   "desktopConnectionLostErrorDescription": {
-    "message": "Please make sure you have the desktop app up and running or disable MetaMask Desktop."
+    "message": "Please make sure you have the desktop app up and running or disable NXN Wallet Desktop."
   },
   "desktopConnectionLostErrorTitle": {
-    "message": "MetaMask Desktop connection was lost"
+    "message": "NXN Wallet Desktop connection was lost"
   },
   "desktopDisableButton": {
     "message": "Disable Desktop App"
   },
   "desktopDisableErrorCTA": {
-    "message": "Disable MetaMask Desktop"
+    "message": "Disable NXN Wallet Desktop"
   },
   "desktopEnableButton": {
     "message": "Enable Desktop App"
@@ -1267,52 +1267,52 @@
     "message": "Return to Settings Page"
   },
   "desktopErrorRestartMMCTA": {
-    "message": "Restart MetaMask"
+    "message": "Restart NXN Wallet"
   },
   "desktopNotFoundErrorCTA": {
-    "message": "Download MetaMask Desktop"
+    "message": "Download NXN Wallet Desktop"
   },
   "desktopNotFoundErrorDescription1": {
     "message": "Please make sure you have the desktop app up and running."
   },
   "desktopNotFoundErrorDescription2": {
-    "message": "If you have no desktop app installed, please download it on the MetaMask website."
+    "message": "If you have no desktop app installed, please download it on the NXN Wallet website."
   },
   "desktopNotFoundErrorTitle": {
-    "message": "MetaMask Desktop was not found"
+    "message": "NXN Wallet Desktop was not found"
   },
   "desktopOpenOrDownloadCTA": {
-    "message": "Open MetaMask Desktop"
+    "message": "Open NXN Wallet Desktop"
   },
   "desktopOutdatedErrorCTA": {
-    "message": "Update MetaMask Desktop"
+    "message": "Update NXN Wallet Desktop"
   },
   "desktopOutdatedErrorDescription": {
-    "message": "Your MetaMask desktop app needs to be upgraded."
+    "message": "Your NXN Wallet desktop app needs to be upgraded."
   },
   "desktopOutdatedErrorTitle": {
-    "message": "MetaMask Desktop is outdated"
+    "message": "NXN Wallet Desktop is outdated"
   },
   "desktopOutdatedExtensionErrorCTA": {
-    "message": "Update MetaMask Extension"
+    "message": "Update NXN Wallet Extension"
   },
   "desktopOutdatedExtensionErrorDescription": {
-    "message": "Your MetaMask extension needs to be upgraded."
+    "message": "Your NXN Wallet extension needs to be upgraded."
   },
   "desktopOutdatedExtensionErrorTitle": {
-    "message": "MetaMask Extension is outdated"
+    "message": "NXN Wallet Extension is outdated"
   },
   "desktopPageDescription": {
     "message": "If the pairing is successful, extension will restart and you'll have to re-enter your password."
   },
   "desktopPageSubTitle": {
-    "message": "Open your MetaMask Desktop and type this code"
+    "message": "Open your NXN Wallet Desktop and type this code"
   },
   "desktopPageTitle": {
     "message": "Pair with Desktop"
   },
   "desktopPairedWarningDeepLink": {
-    "message": "Go to Settings in MetaMask Desktop"
+    "message": "Go to Settings in NXN Wallet Desktop"
   },
   "desktopPairedWarningDescription": {
     "message": "If you want to start a new pairing, please remove the current connection."
@@ -1330,10 +1330,10 @@
     "message": "desktopRouteNotFoundErrorTitle"
   },
   "desktopUnexpectedErrorCTA": {
-    "message": "Return MetaMask Home"
+    "message": "Return NXN Wallet Home"
   },
   "desktopUnexpectedErrorDescription": {
-    "message": "Check your MetaMask Desktop to restore connection"
+    "message": "Check your NXN Wallet Desktop to restore connection"
   },
   "desktopUnexpectedErrorTitle": {
     "message": "Something went wrong..."
@@ -1538,13 +1538,13 @@
     "message": "Enhanced token detection is currently available on $1. $2"
   },
   "ensDomainsSettingDescriptionIntroduction": {
-    "message": "MetaMask lets you see ENS domains right in your browser's address bar. Here's how it works:"
+    "message": "NXN Wallet lets you see ENS domains right in your browser's address bar. Here's how it works:"
   },
   "ensDomainsSettingDescriptionOutroduction": {
     "message": "Keep in mind that using this feature exposes your IP address to IPFS third-party services."
   },
   "ensDomainsSettingDescriptionPart1": {
-    "message": "MetaMask checks with Ethereum's ENS contract to find the code connected to the ENS name."
+    "message": "NXN Wallet checks with Ethereum's ENS contract to find the code connected to the ENS name."
   },
   "ensDomainsSettingDescriptionPart2": {
     "message": "If the code links to IPFS, you can see the content associated with it (usually a website)."
@@ -1610,7 +1610,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask encountered an error",
+    "message": "NXN Wallet encountered an error",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1654,7 +1654,7 @@
     "description": "Banner description displayed on Snaps list page in Settings when less than 6 Snaps is installed."
   },
   "extensionInsallCompleteDescription": {
-    "message": "Return to the MetaMask Institutional product onboarding to connect your custodial or self-custodial accounts."
+    "message": "Return to the NXN Wallet Institutional product onboarding to connect your custodial or self-custodial accounts."
   },
   "extensionInsallCompleteTitle": {
     "message": "Extension install complete"
@@ -1707,15 +1707,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "We do not guarantee the safety or stability of this extension. The new APIs offered by Flask are not hardened against phishing attacks, meaning that any site or snap that requires Flask might be a malicious attempt to steal your assets.",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using NXN Wallet Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "All Flask APIs are experimental. They may be changed or removed without notice, or they might stay on Flask indefinitely without ever being migrated to stable MetaMask. Use them at your own risk.",
+    "message": "All Flask APIs are experimental. They may be changed or removed without notice, or they might stay on Flask indefinitely without ever being migrated to stable NXN Wallet. Use them at your own risk.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "Make sure to disable your regular MetaMask extension when using Flask.",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "Make sure to disable your regular NXN Wallet extension when using Flask.",
+    "description": "This message calls to pay attention about multiple versions of NXN Wallet running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "I accept the risks",
@@ -1887,7 +1887,7 @@
     "message": "Hardware wallet integrations use API calls to external servers, which can see your IP address and the smart contract addresses you interact with."
   },
   "hardwareWalletsMsg": {
-    "message": "Select a hardware wallet you would like to use with MetaMask."
+    "message": "Select a hardware wallet you would like to use with NXN Wallet."
   },
   "here": {
     "message": "here",
@@ -1948,7 +1948,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "MetaMask Support will not request this,",
+    "message": "NXN Wallet Support will not request this,",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -2010,13 +2010,13 @@
     "message": "This is not a valid private key. You must enter a hexadecimal string of length 64."
   },
   "importAccountJsonLoading1": {
-    "message": "Expect this JSON import to take a few minutes and freeze MetaMask."
+    "message": "Expect this JSON import to take a few minutes and freeze NXN Wallet."
   },
   "importAccountJsonLoading2": {
     "message": "We apologize, and we will make it faster in the future."
   },
   "importAccountMsg": {
-    "message": "Imported accounts won’t be associated with your MetaMask Secret Recovery Phrase. Learn more about imported accounts"
+    "message": "Imported accounts won’t be associated with your NXN Wallet Secret Recovery Phrase. Learn more about imported accounts"
   },
   "importMyWallet": {
     "message": "Import my wallet"
@@ -2060,7 +2060,7 @@
     "message": "in your Settings"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMask is unable to connect to the blockchain host. Review possible reasons $1.",
+    "message": "NXN Wallet is unable to connect to the blockchain host. Review possible reasons $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -2087,7 +2087,7 @@
     "message": "Install extension"
   },
   "installExtensionDescription": {
-    "message": "The institution-compliant version of the world's leading web3 wallet, MetaMask."
+    "message": "The institution-compliant version of the world's leading web3 wallet, NXN Wallet."
   },
   "installOrigin": {
     "message": "Install origin"
@@ -2183,7 +2183,7 @@
     "message": "IPFS gateway"
   },
   "ipfsGatewayDescription": {
-    "message": "MetaMask uses third-party services to show images of your NFTs stored on IPFS, display information related to ENS addresses entered in your browser's address bar, and fetch icons for different tokens. Your IP address may be exposed to these services when you’re using them."
+    "message": "NXN Wallet uses third-party services to show images of your NFTs stored on IPFS, display information related to ENS addresses entered in your browser's address bar, and fetch icons for different tokens. Your IP address may be exposed to these services when you’re using them."
   },
   "ipfsToggleModalDescriptionOne": {
     "message": "We use third-party services to show images of your NFTs stored on IPFS, display information related to ENS addresses entered in your browser's address bar, and fetch icons for different tokens. Your IP address may be exposed to these services when you’re using them."
@@ -2268,10 +2268,10 @@
     "message": "scams and security risks."
   },
   "leaveMetaMask": {
-    "message": "Leave MetaMask?"
+    "message": "Leave NXN Wallet?"
   },
   "leaveMetaMaskDesc": {
-    "message": "You're about to visit a site outside of MetaMask. Double-check the URL before continuing."
+    "message": "You're about to visit a site outside of NXN Wallet. Double-check the URL before continuing."
   },
   "ledgerAccountRestriction": {
     "message": "You need to make use your last account before you can add a new one."
@@ -2350,7 +2350,7 @@
     "message": "Lock"
   },
   "lockMetaMask": {
-    "message": "Lock MetaMask"
+    "message": "Lock NXN Wallet"
   },
   "lockTimeInvalid": {
     "message": "Lock time must be a number between 0 and 10080"
@@ -2414,7 +2414,7 @@
     "message": "Message"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "You now have more control over your account connections in MetaMask."
+    "message": "You now have more control over your account connections in NXN Wallet."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Click it to manage your connected accounts."
@@ -2423,13 +2423,13 @@
     "message": "The connection status button shows if the website you’re visiting is connected to your currently selected account."
   },
   "metamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional Version"
+    "message": "NXN Wallet Institutional Version"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps is undergoing maintenance. Please check back later."
+    "message": "NXN Wallet Swaps is undergoing maintenance. Please check back later."
   },
   "metamaskVersion": {
-    "message": "MetaMask Version"
+    "message": "NXN Wallet Version"
   },
   "metrics": {
     "message": "Metrics"
@@ -2464,13 +2464,13 @@
     "message": "Request here"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMask Institutional is designed and built around the world."
+    "message": "NXN Wallet Institutional is designed and built around the world."
   },
   "mmiNewNFTDetectedInNFTsTabMessage": {
-    "message": "Let MetaMask Institutional automatically detect and display NFTs in your wallet."
+    "message": "Let NXN Wallet Institutional automatically detect and display NFTs in your wallet."
   },
   "mmiPasswordSetupDetails": {
-    "message": "This password will unlock your MetaMask Institutional extension only."
+    "message": "This password will unlock your NXN Wallet Institutional extension only."
   },
   "more": {
     "message": "more"
@@ -2529,7 +2529,7 @@
     "message": "Share your feedback"
   },
   "needHelpLinkText": {
-    "message": "MetaMask support"
+    "message": "NXN Wallet support"
   },
   "needHelpSubmitTicket": {
     "message": "Submit a ticket"
@@ -2655,7 +2655,7 @@
     "description": "$1 is used for newNFTDetectedInImportNFTsMessageStrongText"
   },
   "newNFTDetectedInNFTsTabMessage": {
-    "message": "Let MetaMask automatically detect and display NFTs in your wallet."
+    "message": "Let NXN Wallet automatically detect and display NFTs in your wallet."
   },
   "newNFTsAutodetected": {
     "message": "NFT autodetection"
@@ -2681,7 +2681,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce is higher than suggested nonce of $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to NXN Wallet's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "NFT can’t be added as the ownership details do not match. Make sure you have entered correct information."
@@ -2694,7 +2694,7 @@
     "message": "NFT has already been added."
   },
   "nftDisclaimer": {
-    "message": "Disclaimer: MetaMask pulls the media file from the source url. This url sometimes is changed by the marketplace the NFT was minted on."
+    "message": "Disclaimer: NXN Wallet pulls the media file from the source url. This url sometimes is changed by the marketplace the NFT was minted on."
   },
   "nftLearnMore": {
     "message": "Learn more about NFTs"
@@ -2907,12 +2907,12 @@
     "message": "See your NFTs like never before"
   },
   "notifications1Description": {
-    "message": "MetaMask Mobile users can now swap tokens inside their mobile wallet. Scan the QR code to get the mobile app and start swapping.",
+    "message": "NXN Wallet Mobile users can now swap tokens inside their mobile wallet. Scan the QR code to get the mobile app and start swapping.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Swapping on mobile is here!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MetaMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use NXN Wallet Swaps on Mobile."
   },
   "notifications20ActionText": {
     "message": "Learn more",
@@ -2930,7 +2930,7 @@
     "message": "Try it out"
   },
   "notifications21Description": {
-    "message": "We've updated Swaps in the MetaMask extension to be easier and faster to use.",
+    "message": "We've updated Swaps in the NXN Wallet extension to be easier and faster to use.",
     "description": "Description of a notification in the 'See What's New' popup. Describes NFT autodetection feature."
   },
   "notifications21Title": {
@@ -2968,10 +2968,10 @@
   },
   "notifications3ActionText": {
     "message": "Read more",
-    "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
+    "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the NXN Wallet support website."
   },
   "notifications3Description": {
-    "message": "Stay up to date on MetaMask security best practices and get the latest security tips from official MetaMask support.",
+    "message": "Stay up to date on NXN Wallet security best practices and get the latest security tips from official NXN Wallet support.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -2983,7 +2983,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Get the best prices on token swaps right inside your wallet. MetaMask now connects you to multiple decentralized exchange aggregators and professional market makers on Binance Smart Chain.",
+    "message": "Get the best prices on token swaps right inside your wallet. NXN Wallet now connects you to multiple decentralized exchange aggregators and professional market makers on Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -2995,11 +2995,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "As of Chrome version 91, the API that enabled our Ledger support (U2F) no longer supports hardware wallets. MetaMask has implemented a new Ledger Live support that allows you to continue to connect to your Ledger device via the Ledger Live desktop app.",
+    "message": "As of Chrome version 91, the API that enabled our Ledger support (U2F) no longer supports hardware wallets. NXN Wallet has implemented a new Ledger Live support that allows you to continue to connect to your Ledger device via the Ledger Live desktop app.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "When interacting with your Ledger account in MetaMask, a new tab will open and you will be asked to open the Ledger Live app.  Once the app opens, you'll be asked to allow a WebSocket connection to your MetaMask account.  That's all!",
+    "message": "When interacting with your Ledger account in NXN Wallet, a new tab will open and you will be asked to open the Ledger Live app.  Once the app opens, you'll be asked to allow a WebSocket connection to your NXN Wallet account.  That's all!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -3011,7 +3011,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "MetaMask v10.1.0 included new support for EIP-1559 transactions when using Ledger devices.",
+    "message": "NXN Wallet v10.1.0 included new support for EIP-1559 transactions when using Ledger devices.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -3027,7 +3027,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "As of MetaMask v10.4.0, you no longer need Ledger Live to connect your Ledger device to MetaMask.",
+    "message": "As of NXN Wallet v10.4.0, you no longer need Ledger Live to connect your Ledger device to NXN Wallet.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -3048,17 +3048,17 @@
     "message": "👓 We are making transactions easier to read."
   },
   "notificationsBuySellActionText": {
-    "message": "Try it on MetaMask Portfolio"
+    "message": "Try it on NXN Wallet Portfolio"
   },
   "notificationsBuySellDescription": {
-    "message": "Introducing the ‘Buy & Sell’ button, giving you easy access to our latest feature: Sell. When clicked, you’ll be redirected to MetaMask Portfolio, where you’ll be able to convert your crypto to cash in a flash. Initially available for ETH on mainnet in the US (state restrictions apply), UK, and parts of Europe."
+    "message": "Introducing the ‘Buy & Sell’ button, giving you easy access to our latest feature: Sell. When clicked, you’ll be redirected to NXN Wallet Portfolio, where you’ll be able to convert your crypto to cash in a flash. Initially available for ETH on mainnet in the US (state restrictions apply), UK, and parts of Europe."
   },
   "notificationsBuySellTitle": {
     "message": "Sell your crypto, get cash"
   },
   "notificationsDropLedgerFirefoxDescription": {
-    "message": "Firefox no longer supports U2F, so Ledger won't work with MetaMask on Firefox. Try MetaMask on Google Chrome instead.",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "message": "Firefox no longer supports U2F, so Ledger won't work with NXN Wallet on Firefox. Try NXN Wallet on Google Chrome instead.",
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use NXN Wallet on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "Dropping Ledger Support for Firefox",
@@ -3081,16 +3081,16 @@
     "message": "Learn more"
   },
   "notificationsOpenBetaSnapsDescriptionOne": {
-    "message": "🎉 We're excited to announce the Open Beta of MetaMask Snaps!"
+    "message": "🎉 We're excited to announce the Open Beta of NXN Wallet Snaps!"
   },
   "notificationsOpenBetaSnapsDescriptionThree": {
     "message": "Personalize your wallet with snaps built by the developer community!"
   },
   "notificationsOpenBetaSnapsDescriptionTwo": {
-    "message": "Snaps help you do more with MetaMask — like connect to more networks, see transaction insights, and get custom notifications."
+    "message": "Snaps help you do more with NXN Wallet — like connect to more networks, see transaction insights, and get custom notifications."
   },
   "notificationsOpenBetaSnapsTitle": {
-    "message": "Introducing MetaMask Snaps"
+    "message": "Introducing NXN Wallet Snaps"
   },
   "notificationsU2FLedgerLiveDescription": {
     "message": "U2F and Ledger Live are no longer available on Chrome. You can still connect Ledger devices on Chrome using Webhid.",
@@ -3159,16 +3159,16 @@
     "message": "This data is aggregated and is therefore anonymous for the purposes of General Data Protection Regulation (EU) 2016/679."
   },
   "onboardingMetametricsDescription": {
-    "message": "MetaMask would like to gather usage data to better understand how our users interact with MetaMask. This data will be used to provide the service, which includes improving the service based on your use."
+    "message": "NXN Wallet would like to gather usage data to better understand how our users interact with NXN Wallet. This data will be used to provide the service, which includes improving the service based on your use."
   },
   "onboardingMetametricsDescription2": {
-    "message": "MetaMask will..."
+    "message": "NXN Wallet will..."
   },
   "onboardingMetametricsDisagree": {
     "message": "No thanks"
   },
   "onboardingMetametricsInfuraTerms": {
-    "message": "* When you use Infura as your default RPC provider in MetaMask, Infura will collect your IP address and your Ethereum wallet address when you send a transaction. We don’t store this information in a way that allows our systems to associate those two pieces of data. For more information on how MetaMask and Infura interact from a data collection perspective, see our update $1. For more information on our privacy practices in general, see our $2.",
+    "message": "* When you use Infura as your default RPC provider in NXN Wallet, Infura will collect your IP address and your Ethereum wallet address when you send a transaction. We don’t store this information in a way that allows our systems to associate those two pieces of data. For more information on how NXN Wallet and Infura interact from a data collection perspective, see our update $1. For more information on our privacy practices in general, see our $2.",
     "description": "$1 represents `onboardingMetametricsInfuraTermsPolicyLink`, $2 represents `onboardingMetametricsInfuraTermsPolicy`"
   },
   "onboardingMetametricsInfuraTermsPolicy": {
@@ -3199,7 +3199,7 @@
     "message": "Send anonymized click and pageview events"
   },
   "onboardingMetametricsTitle": {
-    "message": "Help us improve MetaMask"
+    "message": "Help us improve NXN Wallet"
   },
   "onboardingPinExtensionBillboardAccess": {
     "message": "Full access"
@@ -3217,16 +3217,16 @@
     "message": "Click the browser extension icon"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Pin MetaMask on your browser so it's accessible and easy to view transaction confirmations."
+    "message": "Pin NXN Wallet on your browser so it's accessible and easy to view transaction confirmations."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "You can open MetaMask by clicking on the extension and access your wallet with 1 click."
+    "message": "You can open NXN Wallet by clicking on the extension and access your wallet with 1 click."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Click browser extension icon to access it instantly"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Pin MetaMask"
+    "message": "Pin NXN Wallet"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -3235,10 +3235,10 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Your MetaMask install is complete!"
+    "message": "Your NXN Wallet install is complete!"
   },
   "onboardingPinMmiExtensionLabel": {
-    "message": "Pin MetaMask Institutional"
+    "message": "Pin NXN Wallet Institutional"
   },
   "onboardingUsePhishingDetectionDescription": {
     "message": "Phishing detection alerts rely on communication with $1. jsDeliver will have access to your IP address. View $2.",
@@ -3256,7 +3256,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "Go to full screen to connect your Ledger.",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing NXN Wallet in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "Open in block explorer"
@@ -3297,7 +3297,7 @@
     "description": "Used in the 'permission_rpc' message."
   },
   "outdatedBrowserNotification": {
-    "message": "Your browser is out of date. If you don't update your browser, you won't be able to get security patches and new features from MetaMask."
+    "message": "Your browser is out of date. If you don't update your browser, you won't be able to get security patches and new features from NXN Wallet."
   },
   "padlock": {
     "message": "Padlock"
@@ -3309,19 +3309,19 @@
     "message": "Participate in MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participate in MetaMetrics to help us make MetaMask better"
+    "message": "Participate in MetaMetrics to help us make NXN Wallet better"
   },
   "password": {
     "message": "Password"
   },
   "passwordMmiTermsWarning": {
-    "message": "I understand that MetaMask Institutional cannot recover this password for me. $1"
+    "message": "I understand that NXN Wallet Institutional cannot recover this password for me. $1"
   },
   "passwordNotLongEnough": {
     "message": "Password not long enough"
   },
   "passwordSetupDetails": {
-    "message": "This password will unlock your MetaMask wallet only on this device. MetaMask can not recover this password."
+    "message": "This password will unlock your NXN Wallet wallet only on this device. NXN Wallet can not recover this password."
   },
   "passwordStrength": {
     "message": "Password strength: $1",
@@ -3331,7 +3331,7 @@
     "message": "A strong password can improve the security of your wallet should your device be stolen or compromised."
   },
   "passwordTermsWarning": {
-    "message": "I understand that MetaMask cannot recover this password for me. $1"
+    "message": "I understand that NXN Wallet cannot recover this password for me. $1"
   },
   "passwordsDontMatch": {
     "message": "Passwords don't match"
@@ -3397,11 +3397,11 @@
     "description": "An extended description for the `snap_cronjob` permission. $1 is the snap name."
   },
   "permission_dialog": {
-    "message": "Display dialog windows in MetaMask.",
+    "message": "Display dialog windows in NXN Wallet.",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_dialogDescription": {
-    "message": "Allow $1 to display MetaMask popups with custom text, input field, and buttons to approve or reject an action.\nCan be used to create e.g. alerts, confirmations, and opt-in flows for a snap.",
+    "message": "Allow $1 to display NXN Wallet popups with custom text, input field, and buttons to approve or reject an action.\nCan be used to create e.g. alerts, confirmations, and opt-in flows for a snap.",
     "description": "An extended description for the `snap_dialog` permission. $1 is the snap name."
   },
   "permission_ethereumAccounts": {
@@ -3413,7 +3413,7 @@
     "description": "The description for the `endowment:ethereum-provider` permission"
   },
   "permission_ethereumProviderDescription": {
-    "message": "Allow $1 to communicate with MetaMask directly, in order for it to read data from the blockchain and suggest messages and transactions.",
+    "message": "Allow $1 to communicate with NXN Wallet directly, in order for it to read data from the blockchain and suggest messages and transactions.",
     "description": "An extended description for the `endowment:ethereum-provider` permission. $1 is the snap name."
   },
   "permission_getEntropy": {
@@ -3421,7 +3421,7 @@
     "description": "The description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getEntropyDescription": {
-    "message": "Allow $1 to derive arbitrary keys unique to $1, without exposing them. These keys are separate from your MetaMask account(s) and not related to your private keys or Secret Recovery Phrase. Other snaps cannot access this information.",
+    "message": "Allow $1 to derive arbitrary keys unique to $1, without exposing them. These keys are separate from your NXN Wallet account(s) and not related to your private keys or Secret Recovery Phrase. Other snaps cannot access this information.",
     "description": "An extended description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getLocale": {
@@ -3429,7 +3429,7 @@
     "description": "The description for the `snap_getLocale` permission"
   },
   "permission_getLocaleDescription": {
-    "message": "Let $1 access your preferred language from your MetaMask settings. This can be used to localize and display $1's content using your language.",
+    "message": "Let $1 access your preferred language from your NXN Wallet settings. This can be used to localize and display $1's content using your language.",
     "description": "An extended description for the `snap_getLocale` permission. $1 is the snap name."
   },
   "permission_homePage": {
@@ -3437,7 +3437,7 @@
     "description": "The description for the `endowment:page-home` permission"
   },
   "permission_homePageDescription": {
-    "message": "Let $1 display a custom home screen in MetaMask. This can be used for user interfaces, configuration, and dashboards.",
+    "message": "Let $1 display a custom home screen in NXN Wallet. This can be used for user interfaces, configuration, and dashboards.",
     "description": "An extended description for the `endowment:page-home` permission. $1 is the snap name."
   },
   "permission_keyring": {
@@ -3489,7 +3489,7 @@
     "description": "The description for the `endowment:name-lookup` permission."
   },
   "permission_nameLookupDescription": {
-    "message": "Allow the snap to fetch and display address and domain lookups in different parts of the MetaMask UI.",
+    "message": "Allow the snap to fetch and display address and domain lookups in different parts of the NXN Wallet UI.",
     "description": "An extended description for the `endowment:name-lookup` permission."
   },
   "permission_notifications": {
@@ -3497,7 +3497,7 @@
     "description": "The description for the `snap_notify` permission"
   },
   "permission_notificationsDescription": {
-    "message": "Allow $1 to display notifications within MetaMask. A short notification text can be triggered by a snap for actionable or time-sensitive information.",
+    "message": "Allow $1 to display notifications within NXN Wallet. A short notification text can be triggered by a snap for actionable or time-sensitive information.",
     "description": "An extended description for the `snap_notify` permission. $1 is the snap name."
   },
   "permission_rpc": {
@@ -3517,7 +3517,7 @@
     "description": "The description for the `endowment:transaction-insight` permission"
   },
   "permission_transactionInsightDescription": {
-    "message": "Allow $1 to decode transactions and show insights within the MetaMask UI. This can be used for anti-phishing and security solutions.",
+    "message": "Allow $1 to decode transactions and show insights within the NXN Wallet UI. This can be used for anti-phishing and security solutions.",
     "description": "An extended description for the `endowment:transaction-insight` permission. $1 is the snap name."
   },
   "permission_transactionInsightOrigin": {
@@ -3565,7 +3565,7 @@
     "message": "Personal address detected. Input the token contract address."
   },
   "pinExtensionDescription": {
-    "message": "Navigate to the extension menu and pin MetaMask Institutional for seamless access."
+    "message": "Navigate to the extension menu and pin NXN Wallet Institutional for seamless access."
   },
   "pinExtensionTitle": {
     "message": "Pin extension"
@@ -3683,7 +3683,7 @@
     "message": "Never share your Secret Recovery Phrase with anyone"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "The MetaMask team will never ask for your Secret Recovery Phrase"
+    "message": "The NXN Wallet team will never ask for your Secret Recovery Phrase"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Your Secret Recovery Phrase controls all of your accounts."
@@ -3734,10 +3734,10 @@
     "message": "Are you sure you want to remove this token? All accounts assigned to this token will be removed from extension as well: "
   },
   "removeKeyringSnap": {
-    "message": "Removing this Snap removes these accounts from MetaMask:"
+    "message": "Removing this Snap removes these accounts from NXN Wallet:"
   },
   "removeKeyringSnapToolTip": {
-    "message": "The snap controls the accounts, and by removing it, the accounts will be removed from MetaMask, too, but they will remain in the blockchain."
+    "message": "The snap controls the accounts, and by removing it, the accounts will be removed from NXN Wallet, too, but they will remain in the blockchain."
   },
   "removeNFT": {
     "message": "Remove NFT"
@@ -3752,7 +3752,7 @@
     "message": "Be sure you can access this account on your own before removing it"
   },
   "removeSnapAccountDescription": {
-    "message": "$1 wants to remove this account from MetaMask:"
+    "message": "$1 wants to remove this account from NXN Wallet:"
   },
   "removeSnapAccountTitle": {
     "message": "Remove account"
@@ -3798,7 +3798,7 @@
     "message": "Reset wallet"
   },
   "resetWalletSubHeader": {
-    "message": "MetaMask does not keep a copy of your password. If you’re having trouble unlocking your account, you will need to reset your wallet. You can do this by providing the Secret Recovery Phrase you used when you set up your wallet."
+    "message": "NXN Wallet does not keep a copy of your password. If you’re having trouble unlocking your account, you will need to reset your wallet. You can do this by providing the Secret Recovery Phrase you used when you set up your wallet."
   },
   "resetWalletUsingSRP": {
     "message": "This action will delete your current wallet and Secret Recovery Phrase from this device, along with the list of accounts you’ve curated. After resetting with a Secret Recovery Phrase, you’ll see a list of accounts based on the Secret Recovery Phrase you use to reset. This new list will automatically include accounts that have a balance. You’ll also be able to $1 created previously. Custom accounts that you’ve imported will need to be $2, and any custom tokens you’ve added to an account will need to be $3 as well."
@@ -3807,7 +3807,7 @@
     "message": "Make sure you’re using the correct Secret Recovery Phrase before proceeding. You will not be able to undo this."
   },
   "restartMetamask": {
-    "message": "Restart MetaMask"
+    "message": "Restart NXN Wallet"
   },
   "restore": {
     "message": "Restore"
@@ -3850,7 +3850,7 @@
     "description": "This is a sentence consisting of link using 'revealSeedWordsSRPName' as $1 and bolded text using 'revealSeedWordsDescription3' as $2."
   },
   "revealSeedWordsDescription2": {
-    "message": "MetaMask is a $1. That means you're the owner of your SRP.",
+    "message": "NXN Wallet is a $1. That means you're the owner of your SRP.",
     "description": "$1 is text link with the message from 'revealSeedWordsNonCustodialWallet'"
   },
   "revealSeedWordsDescription3": {
@@ -3873,7 +3873,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "MetaMask Support will never request this.",
+    "message": "NXN Wallet Support will never request this.",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealSensitiveContent": {
@@ -3991,7 +3991,7 @@
     "message": "If someone asks for your recovery phrase they are likely trying to scam you and steal your wallet funds."
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Never, ever share your Secret Recovery Phrase, not even with MetaMask!"
+    "message": "Never, ever share your Secret Recovery Phrase, not even with NXN Wallet!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "What is a Secret Recovery Phrase?"
@@ -4039,10 +4039,10 @@
     "message": "Select an account"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "This account has already been connected to MetaMask"
+    "message": "This account has already been connected to NXN Wallet"
   },
   "selectAnAccountHelp": {
-    "message": "Select the custodian accounts to use in MetaMask Institutional."
+    "message": "Select the custodian accounts to use in NXN Wallet Institutional."
   },
   "selectAnAction": {
     "message": "Select an action"
@@ -4118,7 +4118,7 @@
     "message": "Sepolia test network"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "MetaMask uses these trusted third-party services to enhance product usability and safety."
+    "message": "NXN Wallet uses these trusted third-party services to enhance product usability and safety."
   },
   "setApprovalForAll": {
     "message": "Set approval for all"
@@ -4231,7 +4231,7 @@
     "message": "Smart Swaps are here!"
   },
   "smartSwapsDescription": {
-    "message": "MetaMask Swaps just got a whole lot smarter! Enabling Smart Swaps will allow MetaMask to programmatically optimize your Swap to help:"
+    "message": "NXN Wallet Swaps just got a whole lot smarter! Enabling Smart Swaps will allow NXN Wallet to programmatically optimize your Swap to help:"
   },
   "smartSwapsDescription2": {
     "message": "*Smart Swaps will submit your transaction privately. You can opt-out in advanced settings at any time. To learn more about Smart Swaps, read our $1.",
@@ -4251,7 +4251,7 @@
     "message": "Your account is ready!"
   },
   "snapAccountLegalDisclaimerExperimentalBetaDescription": {
-    "message": "Account Management Snaps are released as part of an experimental Beta release. You agree that you will only use one of these Snaps if you understand how it functions and how to use it, and you have fully read and understand all risk warnings and other disclosures made available by the Third Party Service provider relating to use of their Snap. You agree that Consensys is not responsible for any injury that you incur as a result of your use of this Snap.\n\nYou will not be able to use your MetaMask Secret Recovery Phrase to recover accounts added through Account Management Snaps. If your account credentials are lost or compromised, MetaMask will not be able to help you. If the Snap or the associated dapp is hacked or ceases to function, you may not be able to access your account and the funds in your account."
+    "message": "Account Management Snaps are released as part of an experimental Beta release. You agree that you will only use one of these Snaps if you understand how it functions and how to use it, and you have fully read and understand all risk warnings and other disclosures made available by the Third Party Service provider relating to use of their Snap. You agree that Consensys is not responsible for any injury that you incur as a result of your use of this Snap.\n\nYou will not be able to use your NXN Wallet Secret Recovery Phrase to recover accounts added through Account Management Snaps. If your account credentials are lost or compromised, NXN Wallet will not be able to help you. If the Snap or the associated dapp is hacked or ceases to function, you may not be able to access your account and the funds in your account."
   },
   "snapAccountLegalDisclaimerExperimentalBetaSubtitle": {
     "message": "Experimental Beta"
@@ -4305,7 +4305,7 @@
     "description": "This is shown when a snap shows transaction insight information in the confirmation UI. $1 is a link to the snap's settings page with the link text being the name of the snap."
   },
   "snapCreateAccountSubtitle": {
-    "message": "Choose how to secure your new account using MetaMask Snaps. If you install an account Snap, remember that it is a third-party service."
+    "message": "Choose how to secure your new account using NXN Wallet Snaps. If you install an account Snap, remember that it is a third-party service."
   },
   "snapCreateAccountTitle": {
     "message": "Create an account $1 (Beta)",
@@ -4316,7 +4316,7 @@
     "description": "$1 of the snapCreateAccountTitle"
   },
   "snapCreatedByMetaMask": {
-    "message": "By MetaMask"
+    "message": "By NXN Wallet"
   },
   "snapDetailAudits": {
     "message": "Audit"
@@ -4542,7 +4542,7 @@
     "message": "To reveal your Secret Recovery Phrase, you need to correctly answer two questions"
   },
   "srpSecurityQuizQuestionOneQuestion": {
-    "message": "If you lose your Secret Recovery Phrase, MetaMask..."
+    "message": "If you lose your Secret Recovery Phrase, NXN Wallet..."
   },
   "srpSecurityQuizQuestionOneRightAnswer": {
     "message": "Can’t help you"
@@ -4614,7 +4614,7 @@
     "message": "Error in retrieving state logs."
   },
   "stateLogFileName": {
-    "message": "MetaMask state logs"
+    "message": "NXN Wallet state logs"
   },
   "stateLogs": {
     "message": "State logs"
@@ -4635,7 +4635,7 @@
     "message": "Connect your Lattice1"
   },
   "step1LatticeWalletMsg": {
-    "message": "You can connect MetaMask to your Lattice1 device once it is set up and online. Unlock your device and have your Device ID ready.",
+    "message": "You can connect NXN Wallet to your Lattice1 device once it is set up and online. Unlock your device and have your Device ID ready.",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -4691,7 +4691,7 @@
   },
   "stxFailureDescription": {
     "message": "Sudden market changes can cause failures. If the problem persists, please reach out to $1.",
-    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.metamask.io"
+    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.NXN Wallet.io"
   },
   "stxPendingPrivatelySubmittingSwap": {
     "message": "Privately submitting your Swap..."
@@ -4814,7 +4814,7 @@
     "message": "Edit limit"
   },
   "swapEnableDescription": {
-    "message": "This is required and gives MetaMask permission to swap your $1.",
+    "message": "This is required and gives NXN Wallet permission to swap your $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -4832,7 +4832,7 @@
   },
   "swapFailedErrorDescriptionWithSupportLink": {
     "message": "Transaction failures happen and we are here to help. If this issue persists, you can reach our customer support at $1 for further assistance.",
-    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.metamask.io"
+    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.NXN Wallet.io"
   },
   "swapFailedErrorTitle": {
     "message": "Swap failed"
@@ -4870,7 +4870,7 @@
     "message": "Gas fees on the previous screen are split between these two transactions."
   },
   "swapGasFeesSummary": {
-    "message": "Gas fees are paid to crypto miners who process transactions on the $1 network. MetaMask does not profit from gas fees.",
+    "message": "Gas fees are paid to crypto miners who process transactions on the $1 network. NXN Wallet does not profit from gas fees.",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippage": {
@@ -4880,12 +4880,12 @@
     "message": "Slippage amount is very high."
   },
   "swapIncludesMMFee": {
-    "message": "Includes a $1% MetaMask fee.",
-    "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
+    "message": "Includes a $1% NXN Wallet fee.",
+    "description": "Provides information about the fee that NXN Wallet takes for swaps. $1 is a decimal number."
   },
   "swapIncludesMetaMaskFeeViewAllQuotes": {
-    "message": "Includes a $1% MetaMask fee – $2",
-    "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
+    "message": "Includes a $1% NXN Wallet fee – $2",
+    "description": "Provides information about the fee that NXN Wallet takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
   },
   "swapLearnMore": {
     "message": "Learn more about Swaps"
@@ -4903,11 +4903,11 @@
     "message": "Max slippage"
   },
   "swapMetaMaskFee": {
-    "message": "MetaMask fee"
+    "message": "NXN Wallet fee"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "The fee of $1% is automatically factored into this quote. You pay it in exchange for a license to use MetaMask's liquidity provider information aggregation software.",
-    "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
+    "message": "The fee of $1% is automatically factored into this quote. You pay it in exchange for a license to use NXN Wallet's liquidity provider information aggregation software.",
+    "description": "Provides information about the fee that NXN Wallet takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
     "message": "$1 quotes.",
@@ -5160,7 +5160,7 @@
     "message": "Switch"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "This will switch the selected network within MetaMask to a previously added network:"
+    "message": "This will switch the selected network within NXN Wallet to a previously added network:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Allow this site to switch the network?"
@@ -5209,7 +5209,7 @@
     "message": "Terms of service"
   },
   "termsOfUseAgreeText": {
-    "message": " I agree to the Terms of Use, which apply to my use of MetaMask and all of its features"
+    "message": " I agree to the Terms of Use, which apply to my use of NXN Wallet and all of its features"
   },
   "termsOfUseFooterText": {
     "message": "Please scroll to read all sections"
@@ -5224,7 +5224,7 @@
     "message": "Theme"
   },
   "themeDescription": {
-    "message": "Choose your preferred MetaMask theme."
+    "message": "Choose your preferred NXN Wallet theme."
   },
   "thingsToKeep": {
     "message": "Things to keep in mind:"
@@ -5380,7 +5380,7 @@
     "message": "Site suggested"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Edit to use MetaMask's recommended gas fee based on the latest block."
+    "message": "Edit to use NXN Wallet's recommended gas fee based on the latest block."
   },
   "transactionDetailGasHeading": {
     "message": "Estimated gas fee"
@@ -5395,7 +5395,7 @@
     "message": "Gas fees are set by the network and fluctuate based on network traffic and transaction complexity."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "Gas fees are paid to crypto miners who process transactions on the $1 network. MetaMask does not profit from gas fees."
+    "message": "Gas fees are paid to crypto miners who process transactions on the $1 network. NXN Wallet does not profit from gas fees."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Amount + gas fee"
@@ -5511,7 +5511,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "MetaMask had trouble starting. This error could be intermittent, so try restarting the extension."
+    "message": "NXN Wallet had trouble starting. This error could be intermittent, so try restarting the extension."
   },
   "trustSiteApprovePermission": {
     "message": "By granting permission, you are allowing the following $1 to access your funds"
@@ -5533,7 +5533,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect NXN Wallet to Ledger devices."
   },
   "unapproved": {
     "message": "Unapproved"
@@ -5605,7 +5605,7 @@
     "message": "Decode smart contracts"
   },
   "use4ByteResolutionDescription": {
-    "message": "To improve user experience, we customize the activity tab with messages based on the smart contracts you interact with. MetaMask uses a service called 4byte.directory to decode data and show you a version of a smart contract that's easier to read. This helps reduce your chances of approving malicious smart contract actions, but can result in your IP address being shared."
+    "message": "To improve user experience, we customize the activity tab with messages based on the smart contracts you interact with. NXN Wallet uses a service called 4byte.directory to decode data and show you a version of a smart contract that's easier to read. This helps reduce your chances of approving malicious smart contract actions, but can result in your IP address being shared."
   },
   "useMultiAccountBalanceChecker": {
     "message": "Batch account balance requests"
@@ -5617,7 +5617,7 @@
     "message": "Autodetect NFTs"
   },
   "useNftDetectionDescriptionText": {
-    "message": "Let MetaMask add NFTs you own using third-party services (like OpenSea). Autodetecting NFTs exposes your IP and account address to these services. Enabling this feature could associate your IP address with your Ethereum address and display fake NFTs airdropped by scammers. You can add tokens manually to avoid this risk."
+    "message": "Let NXN Wallet add NFTs you own using third-party services (like OpenSea). Autodetecting NFTs exposes your IP and account address to these services. Enabling this feature could associate your IP address with your Ethereum address and display fake NFTs airdropped by scammers. You can add tokens manually to avoid this risk."
   },
   "usePhishingDetection": {
     "message": "Use phishing detection"
@@ -5629,7 +5629,7 @@
     "message": "Network details check"
   },
   "useSafeChainsListValidationDescription": {
-    "message": "MetaMask uses a third-party service called $1 to show accurate and standardized network details. This reduces your chances of connecting to malicious or incorrect network. When using this feature, your IP address is exposed to chainid.network."
+    "message": "NXN Wallet uses a third-party service called $1 to show accurate and standardized network details. This reduces your chances of connecting to malicious or incorrect network. When using this feature, your IP address is exposed to chainid.network."
   },
   "useSafeChainsListValidationWebsite": {
     "message": "chainid.network",
@@ -5726,10 +5726,10 @@
     "message": "You’ve successfully protected your wallet. Keep your Secret Recovery Phrase safe and secret -- it’s your responsibility!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "MetaMask can’t recover your Secret Recovery Phrase."
+    "message": "NXN Wallet can’t recover your Secret Recovery Phrase."
   },
   "walletCreationSuccessReminder2": {
-    "message": "MetaMask will never ask you for your Secret Recovery Phrase."
+    "message": "NXN Wallet will never ask you for your Secret Recovery Phrase."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 with anyone or risk your funds being stolen",
@@ -5784,7 +5784,7 @@
     "message": "Explore decentralized apps"
   },
   "welcomeLoginDescription": {
-    "message": "Use your MetaMask to login to decentralized apps - no signup needed."
+    "message": "Use your NXN Wallet to login to decentralized apps - no signup needed."
   },
   "welcomeLoginTitle": {
     "message": "Say hello to your wallet"
@@ -5793,11 +5793,11 @@
     "message": "Let's get started"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "Trusted by millions, MetaMask is a secure wallet making the world of web3 accessible to all."
+    "message": "Trusted by millions, NXN Wallet is a secure wallet making the world of web3 accessible to all."
   },
   "whatsNew": {
     "message": "What's new",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to NXN Wallet."
   },
   "whatsThis": {
     "message": "What's this?"

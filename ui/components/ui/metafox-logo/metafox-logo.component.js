@@ -36,10 +36,10 @@ export default class MetaFoxLogo extends PureComponent {
     } = this.props;
     const iconProps = unsetIconHeight ? {} : { height: 42, width: 42 };
 
-    iconProps.src = './images/logo/metamask-fox.svg';
+    iconProps.src = './images/logo/logo_title.png';
 
     ///: BEGIN:ONLY_INCLUDE_IN(build-mmi)
-    iconProps.src = './build-types/mmi/images/logo/mmi-logo-with-words.svg';
+    // iconProps.src = './build-types/mmi/images/logo/mmi-logo-with-words.svg';
     ///: END:ONLY_INCLUDE_IN
 
     let renderHorizontalLogo = () => (
@@ -54,7 +54,7 @@ export default class MetaFoxLogo extends PureComponent {
       />
     );
 
-    let imageSrc = './images/logo/metamask-fox.svg';
+    let imageSrc = './images/logo/logo_title.png';
 
     ///: BEGIN:ONLY_INCLUDE_IN(build-flask)
     if (src) {
@@ -86,15 +86,12 @@ export default class MetaFoxLogo extends PureComponent {
         backgroundColor={BackgroundColor.transparent}
         data-testid="app-header-logo"
       >
-        {renderHorizontalLogo()}
+        {/* {renderHorizontalLogo()} */}
 
         <img
+          style={{ width: '200px', maxWidth: '40vw' }}
           {...iconProps}
           src={imageSrc}
-          className={classnames({
-            'app-header__metafox-logo--icon': !isOnboarding,
-            'onboarding-app-header__metafox-logo--icon': isOnboarding,
-          })}
           alt=""
         />
       </Box>

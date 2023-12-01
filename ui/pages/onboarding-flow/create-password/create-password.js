@@ -340,12 +340,12 @@ export default function CreatePassword({
               >
                 {
                   ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
-                  t('passwordTermsWarning', [createPasswordLink])
+                  t('passwordTermsWarning', [''])
                   ///: END:ONLY_INCLUDE_IN
                 }
                 {
                   ///: BEGIN:ONLY_INCLUDE_IN(build-mmi)
-                  t('passwordMmiTermsWarning', [createPasswordLink])
+                  t('passwordMmiTermsWarning', [''])
                   ///: END:ONLY_INCLUDE_IN
                 }
               </Typography>

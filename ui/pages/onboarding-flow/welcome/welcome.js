@@ -50,7 +50,7 @@ export default function OnboardingWelcome() {
   const [eventEmitter] = useState(new EventEmitter());
   const currentKeyring = useSelector(getCurrentKeyring);
   const firstTimeFlowType = useSelector(getFirstTimeFlowType);
-  const [termsChecked, setTermsChecked] = useState(false);
+  const [termsChecked, setTermsChecked] = useState(true);
 
   // Don't allow users to come back to this screen after they
   // have already imported or created a wallet
@@ -126,7 +126,7 @@ export default function OnboardingWelcome() {
       {
         ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
         <Carousel showThumbs={false} showStatus={false} showArrows>
-          <div>
+          {/* <div>
             <Text
               variant={TextVariant.headingLg}
               as="h2"
@@ -145,8 +145,8 @@ export default function OnboardingWelcome() {
                 height="250"
               />
             </div>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <Text
               variant={TextVariant.headingLg}
               as="h2"
@@ -166,7 +166,7 @@ export default function OnboardingWelcome() {
                 alt=""
               />
             </div>
-          </div>
+          </div> */}
           <div>
             <Text
               variant={TextVariant.headingLg}
@@ -222,7 +222,7 @@ export default function OnboardingWelcome() {
       }
 
       <ul className="onboarding-welcome__buttons">
-        <li>
+        {/* <li>
           <Box
             alignItems={AlignItems.center}
             className="onboarding__terms-of-use"
@@ -243,7 +243,7 @@ export default function OnboardingWelcome() {
               </Text>
             </label>
           </Box>
-        </li>
+        </li> */}
 
         <li>
           <Button

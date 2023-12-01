@@ -121,7 +121,7 @@
     "message": "使用账户私钥助记词访问钱包"
   },
   "accessYourWalletWithSRPDescription": {
-    "message": "MetaMask无法恢复您的密码。我们将使用您的私钥助记词来验证您的所有权、恢复您的钱包并设置新密码。首先，请输入创建钱包时获得的私钥助记词。$1",
+    "message": "NXN Wallet无法恢复您的密码。我们将使用您的私钥助记词来验证您的所有权、恢复您的钱包并设置新密码。首先，请输入创建钱包时获得的私钥助记词。$1",
     "description": "$1 is the words 'Learn More' from key 'learnMore', separated here so that it can be added as a link"
   },
   "accessingYourCamera": {
@@ -178,7 +178,7 @@
     "message": "添加账户"
   },
   "addAcquiredTokens": {
-    "message": "添加您通过MetaMask获得的代币"
+    "message": "添加您通过NXN Wallet获得的代币"
   },
   "addAlias": {
     "message": "添加别名"
@@ -193,10 +193,10 @@
     "message": "添加自定义网络"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "这将允许在 MetaMask 中使用此网络。"
+    "message": "这将允许在 NXN Wallet 中使用此网络。"
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "MetaMask 不验证自定义网络。"
+    "message": "NXN Wallet 不验证自定义网络。"
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "了解 $1。",
@@ -207,7 +207,7 @@
     "description": "Link text for the 'addEthereumChainConfirmationRisksLearnMore' translation key"
   },
   "addEthereumChainConfirmationTitle": {
-    "message": "允许此网站添加一个网络到MetaMask上？"
+    "message": "允许此网站添加一个网络到NXN Wallet上？"
   },
   "addEthereumChainWarningModalHeader": {
     "message": "仅当您确定可以信任此 RPC 提供商时才能添加它。$1",
@@ -266,7 +266,7 @@
     "message": "添加 NFT"
   },
   "addSnapAccountModalDescription": {
-    "message": "了解使用 MetaMask Snaps 来保护账户安全的选项"
+    "message": "了解使用 NXN Wallet Snaps 来保护账户安全的选项"
   },
   "addSuggestedNFTs": {
     "message": "添加推荐的 NFT"
@@ -313,7 +313,7 @@
     "message": "优先费用（又称“矿工费”）直接向矿工支付，激励他们优先处理您的交易。"
   },
   "agreeTermsOfUse": {
-    "message": "我同意MetaMask的$1",
+    "message": "我同意NXN Wallet的$1",
     "description": "$1 is the `terms` link"
   },
   "airgapVault": {
@@ -338,7 +338,7 @@
     "message": "提醒"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "您或者已连接所有托管账户，或者没有任何账户可连接到 MetaMask Institutional。"
+    "message": "您或者已连接所有托管账户，或者没有任何账户可连接到 NXN Wallet Institutional。"
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "没有可连接的账户"
@@ -376,19 +376,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "NXN Wallet",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "NXN Wallet Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "NXN Wallet Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "NXN Wallet Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -462,7 +462,7 @@
     "message": "自动锁定计时器（分钟）"
   },
   "autoLockTimeLimitDescription": {
-    "message": "设置 MetaMask 将被锁定前的空闲时间（单位：分钟）。"
+    "message": "设置 NXN Wallet 将被锁定前的空闲时间（单位：分钟）。"
   },
   "average": {
     "message": "平均值"
@@ -477,7 +477,7 @@
     "message": "备份"
   },
   "backupApprovalInfo": {
-    "message": "如果不慎丢失个人设备，忘记密码，需要重新安装 MetaMask，或者需在另一台设备上访问钱包，使用此助记词才能恢复您的钱包。"
+    "message": "如果不慎丢失个人设备，忘记密码，需要重新安装 NXN Wallet，或者需在另一台设备上访问钱包，使用此助记词才能恢复您的钱包。"
   },
   "backupApprovalNotice": {
     "message": "请备份您的账户私钥助记词，保证您的钱包和资金安全。"
@@ -514,19 +514,19 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional 测试版本"
+    "message": "NXN Wallet Institutional 测试版本"
   },
   "betaMetamaskVersion": {
-    "message": "MetaMask 测试版本"
+    "message": "NXN Wallet 测试版本"
   },
   "betaTerms": {
     "message": "测试版使用条款"
   },
   "betaWalletCreationSuccessReminder1": {
-    "message": "MetaMask 测试版无法恢复您的账户私钥助记词。"
+    "message": "NXN Wallet 测试版无法恢复您的账户私钥助记词。"
   },
   "betaWalletCreationSuccessReminder2": {
-    "message": "MetaMask 测试版绝对不会向您索要账户私钥助记词。"
+    "message": "NXN Wallet 测试版绝对不会向您索要账户私钥助记词。"
   },
   "blockExplorerAccountAction": {
     "message": "账户",
@@ -602,7 +602,7 @@
     "message": "建立您的联系人列表"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask 是在世界各地设计和建造的。"
+    "message": "NXN Wallet 是在世界各地设计和建造的。"
   },
   "busy": {
     "message": "忙碌中"
@@ -668,7 +668,7 @@
     "description": "$1 is a link to the privacy policy"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要在 Google Chrome 上使用 MetaMask 以连接到您的硬件钱包。"
+    "message": "您需要在 Google Chrome 上使用 NXN Wallet 以连接到您的硬件钱包。"
   },
   "clear": {
     "message": "清除"
@@ -699,10 +699,10 @@
     "message": "CoinGecko"
   },
   "configureSnapPopupDescription": {
-    "message": "您现在要离开MetaMask来配置此snap。"
+    "message": "您现在要离开NXN Wallet来配置此snap。"
   },
   "configureSnapPopupInstallDescription": {
-    "message": "您现在要离开MetaMask来安装此snap。"
+    "message": "您现在要离开NXN Wallet来安装此snap。"
   },
   "configureSnapPopupInstallTitle": {
     "message": "安装snap"
@@ -758,7 +758,7 @@
   },
   "connectTo": {
     "message": "连接到 $1",
-    "description": "$1 is the name/origin of a web3 site/application that the user can connect to metamask"
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to NXN Wallet"
   },
   "connectToAll": {
     "message": "连接到您的全部 $1",
@@ -777,7 +777,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "与 MetaMask 连接"
+    "message": "与 NXN Wallet 连接"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "您有 $1 个账户连接到了该网站。",
@@ -787,7 +787,7 @@
     "message": "您有1个账户连接到了该网站。"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask 没有连接到该网站。要连接到 web3 网站，请找到并点击连接按钮。"
+    "message": "NXN Wallet 没有连接到该网站。要连接到 web3 网站，请找到并点击连接按钮。"
   },
   "connectedSites": {
     "message": "已连接的网站"
@@ -884,7 +884,7 @@
     "message": "代币合约"
   },
   "convertTokenToNFTDescription": {
-    "message": "我们检测到该资产是NFT。MetaMask现在完全原生支持NFT。您想将它从您的代币列表中删除并将它添加为NFT吗？"
+    "message": "我们检测到该资产是NFT。NXN Wallet现在完全原生支持NFT。您想将它从您的代币列表中删除并将它添加为NFT吗？"
   },
   "convertTokenToNFTExistDescription": {
     "message": "我们检测到该资产已作为NFT添加。是否要将其从代币列表中删除？"
@@ -966,7 +966,7 @@
     "message": "托管人"
   },
   "custodianAccountAddedDesc": {
-    "message": "您现在可以在 MetaMask Institutional 使用您的托管账户。 "
+    "message": "您现在可以在 NXN Wallet Institutional 使用您的托管账户。 "
   },
   "custodianAccountAddedTitle": {
     "message": "已添加所选托管账户。"
@@ -975,7 +975,7 @@
     "message": "请转到 $1，点击其用户界面内的“连接到 MMI”按钮，再次将您的账户连接到 MMI。"
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "您现在可以在 MetaMask Institutional 使用您的托管账户。"
+    "message": "您现在可以在 NXN Wallet Institutional 使用您的托管账户。"
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "您的托管代币已刷新"
@@ -996,7 +996,7 @@
     "message": "请转到$1，然后点击用户界面中的“连接到MMI”按钮，将您的账户再次连接到MMI。"
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "您的托管人会发出一个令牌来验证 MetaMask Institutional 扩展，使您可以连接您的账户。"
+    "message": "您的托管人会发出一个令牌来验证 NXN Wallet Institutional 扩展，使您可以连接您的账户。"
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "由于安全原因，此令牌会在一段时间后过期。这使您需要重新连接到MMI。"
@@ -1144,22 +1144,22 @@
     "message": "桌面应用程序"
   },
   "desktopConnectionCriticalErrorDescription": {
-    "message": "此错误可能是间歇性的，因此，请尝试重新启动此扩展程序或禁用 MetaMask 桌面应用程序。"
+    "message": "此错误可能是间歇性的，因此，请尝试重新启动此扩展程序或禁用 NXN Wallet 桌面应用程序。"
   },
   "desktopConnectionCriticalErrorTitle": {
-    "message": "MetaMask启动时出现问题"
+    "message": "NXN Wallet启动时出现问题"
   },
   "desktopConnectionLostErrorDescription": {
-    "message": "请确保您已启动并运行桌面应用程序，或禁用MetaMask桌面应用程序。"
+    "message": "请确保您已启动并运行桌面应用程序，或禁用NXN Wallet桌面应用程序。"
   },
   "desktopConnectionLostErrorTitle": {
-    "message": "MetaMask桌面应用程序连接已断开"
+    "message": "NXN Wallet桌面应用程序连接已断开"
   },
   "desktopDisableButton": {
     "message": "禁用桌面应用程序"
   },
   "desktopDisableErrorCTA": {
-    "message": "禁用MetaMask桌面应用程序"
+    "message": "禁用NXN Wallet桌面应用程序"
   },
   "desktopEnableButton": {
     "message": "启用桌面应用程序"
@@ -1171,52 +1171,52 @@
     "message": "返回设置页面"
   },
   "desktopErrorRestartMMCTA": {
-    "message": "重新启动MetaMask"
+    "message": "重新启动NXN Wallet"
   },
   "desktopNotFoundErrorCTA": {
-    "message": "下载MetaMask桌面应用程序"
+    "message": "下载NXN Wallet桌面应用程序"
   },
   "desktopNotFoundErrorDescription1": {
     "message": "请确保您已启动并运行桌面应用程序。"
   },
   "desktopNotFoundErrorDescription2": {
-    "message": "如果您没有安装桌面应用程序，请到MetaMask网站下载。"
+    "message": "如果您没有安装桌面应用程序，请到NXN Wallet网站下载。"
   },
   "desktopNotFoundErrorTitle": {
-    "message": "找不到MetaMask桌面应用程序"
+    "message": "找不到NXN Wallet桌面应用程序"
   },
   "desktopOpenOrDownloadCTA": {
-    "message": "打开MetaMask桌面应用程序"
+    "message": "打开NXN Wallet桌面应用程序"
   },
   "desktopOutdatedErrorCTA": {
-    "message": "更新MetaMask桌面应用程序"
+    "message": "更新NXN Wallet桌面应用程序"
   },
   "desktopOutdatedErrorDescription": {
-    "message": "您的MetaMask桌面应用程序需要升级。"
+    "message": "您的NXN Wallet桌面应用程序需要升级。"
   },
   "desktopOutdatedErrorTitle": {
-    "message": "MetaMask桌面应用程序已过时"
+    "message": "NXN Wallet桌面应用程序已过时"
   },
   "desktopOutdatedExtensionErrorCTA": {
-    "message": "更新 MetaMask Extension"
+    "message": "更新 NXN Wallet Extension"
   },
   "desktopOutdatedExtensionErrorDescription": {
-    "message": "您的 MetaMask Extension 需要升级。"
+    "message": "您的 NXN Wallet Extension 需要升级。"
   },
   "desktopOutdatedExtensionErrorTitle": {
-    "message": "MetaMask Extension 已过时"
+    "message": "NXN Wallet Extension 已过时"
   },
   "desktopPageDescription": {
     "message": "如果配对成功，扩展程序将重新启动，您必须重新输入密码。"
   },
   "desktopPageSubTitle": {
-    "message": "请打开MetaMask桌面应用程序并输入此代码"
+    "message": "请打开NXN Wallet桌面应用程序并输入此代码"
   },
   "desktopPageTitle": {
     "message": "与桌面配对"
   },
   "desktopPairedWarningDeepLink": {
-    "message": "转到MetaMask桌面应用程序中的设置"
+    "message": "转到NXN Wallet桌面应用程序中的设置"
   },
   "desktopPairedWarningDescription": {
     "message": "如果要开始新的配对，请移除当前连接。"
@@ -1234,10 +1234,10 @@
     "message": "desktopRouteNotFoundErrorTitle"
   },
   "desktopUnexpectedErrorCTA": {
-    "message": "返回MetaMask主页"
+    "message": "返回NXN Wallet主页"
   },
   "desktopUnexpectedErrorDescription": {
-    "message": "请检查MetaMask桌面应用程序以恢复连接"
+    "message": "请检查NXN Wallet桌面应用程序以恢复连接"
   },
   "desktopUnexpectedErrorTitle": {
     "message": "出错了......"
@@ -1480,7 +1480,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask 遇到了一个错误",
+    "message": "NXN Wallet 遇到了一个错误",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1562,15 +1562,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "我们不保证此扩展程序的安全性或稳定性。Flask 提供的新API并未针对网络钓鱼攻击进行强化，这意味着任何需要 Flask 的站点或快取都可能是窃取您资产的恶意企图。",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using NXN Wallet Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "所有Flask API都是实验性的。它们可能会在未事先通知的情况下被更改或删除，它们也可能会无限期地留在 Flask 上而不会迁移到稳定的 MetaMask。您需要自行承担使用它们的风险。",
+    "message": "所有Flask API都是实验性的。它们可能会在未事先通知的情况下被更改或删除，它们也可能会无限期地留在 Flask 上而不会迁移到稳定的 NXN Wallet。您需要自行承担使用它们的风险。",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "确保在使用Flask时禁用常规 MetaMask 扩展程序。",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "确保在使用Flask时禁用常规 NXN Wallet 扩展程序。",
+    "description": "This message calls to pay attention about multiple versions of NXN Wallet running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "我接受风险",
@@ -1739,7 +1739,7 @@
     "message": "硬件钱包集成使用API调用外部服务器，这些外部服务器可以看到您的IP地址和您与之交互的智能合约地址。"
   },
   "hardwareWalletsMsg": {
-    "message": "选择希望用于 MetaMask 的硬件钱包。"
+    "message": "选择希望用于 NXN Wallet 的硬件钱包。"
   },
   "here": {
     "message": "此处",
@@ -1796,7 +1796,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "MetaMask 支持团队不会要求提供此项信息，",
+    "message": "NXN Wallet 支持团队不会要求提供此项信息，",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -1858,13 +1858,13 @@
     "message": "这不是有效的私钥。必须输入长度为 64 个字符的十六进制字符串。"
   },
   "importAccountJsonLoading1": {
-    "message": "预计此 JSON 导入需要几分钟时间并暂停 MetaMask。"
+    "message": "预计此 JSON 导入需要几分钟时间并暂停 NXN Wallet。"
   },
   "importAccountJsonLoading2": {
     "message": "很抱歉，在未来我们将会加快此流程。"
   },
   "importAccountMsg": {
-    "message": "导入的账户将不会与最初创建的 MetaMask 账户私钥助记词相关联。了解更多有关导入账户的信息"
+    "message": "导入的账户将不会与最初创建的 NXN Wallet 账户私钥助记词相关联。了解更多有关导入账户的信息"
   },
   "importMyWallet": {
     "message": "导入我的钱包"
@@ -1908,7 +1908,7 @@
     "message": "在设置中"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMask 无法连接到区块链主机。请检查可能的原因 $1。",
+    "message": "NXN Wallet 无法连接到区块链主机。请检查可能的原因 $1。",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -2022,7 +2022,7 @@
     "message": "IPFS网关"
   },
   "ipfsGatewayDescription": {
-    "message": "MetaMask使用第三方服务来显示您存储在IPFS上的NFT图像，显示与您输入到浏览器地址栏中的ENS地址相关信息，并获取不同代币的图标。当您使用这些服务时，这些服务可能会获悉您的IP地址。"
+    "message": "NXN Wallet使用第三方服务来显示您存储在IPFS上的NFT图像，显示与您输入到浏览器地址栏中的ENS地址相关信息，并获取不同代币的图标。当您使用这些服务时，这些服务可能会获悉您的IP地址。"
   },
   "ipfsToggleModalDescriptionOne": {
     "message": "我们使用第三方服务来显示存储在 IPFS 中的 NFT 图像，显示与在浏览器地址栏中输入的 ENS 地址相关的信息，并获取不同代币的图标。当您使用这些服务时，您的 IP 地址可能会被其获悉。"
@@ -2159,7 +2159,7 @@
     "message": "注销"
   },
   "lockMetaMask": {
-    "message": "锁定 MetaMask"
+    "message": "锁定 NXN Wallet"
   },
   "lockTimeInvalid": {
     "message": "锁定时间必须是 0 到 10080 之间的数字"
@@ -2220,7 +2220,7 @@
     "message": "消息"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "现在您可以更好地控制 MetaMask 中的账户连接。"
+    "message": "现在您可以更好地控制 NXN Wallet 中的账户连接。"
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "点击它以管理您的连接账户。"
@@ -2229,13 +2229,13 @@
     "message": "连接状态按钮显示所访问的网站是否与您当前选择的账户连接。"
   },
   "metamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional 版本"
+    "message": "NXN Wallet Institutional 版本"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps 正在进行维护。请稍后再查看。"
+    "message": "NXN Wallet Swaps 正在进行维护。请稍后再查看。"
   },
   "metamaskVersion": {
-    "message": "MetaMask 版本"
+    "message": "NXN Wallet 版本"
   },
   "metrics": {
     "message": "指标"
@@ -2270,7 +2270,7 @@
     "message": "在这里请求"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMask Institutional 面向全球各地设计并建立。"
+    "message": "NXN Wallet Institutional 面向全球各地设计并建立。"
   },
   "more": {
     "message": "更多"
@@ -2297,7 +2297,7 @@
     "message": "分享您的反馈"
   },
   "needHelpLinkText": {
-    "message": "MetaMask 支持"
+    "message": "NXN Wallet 支持"
   },
   "needHelpSubmitTicket": {
     "message": "提交工单"
@@ -2427,7 +2427,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce 高于所指出的 Nonce: $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to NXN Wallet's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "由于所有权信息不匹配，无法添加NFT。请确保所输入的信息正确无误。"
@@ -2437,7 +2437,7 @@
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
   },
   "nftDisclaimer": {
-    "message": "免责声明：MetaMask 从源网址中提取媒体文件。该网址有时会因铸造 NFT 的市场而改变。"
+    "message": "免责声明：NXN Wallet 从源网址中提取媒体文件。该网址有时会因铸造 NFT 的市场而改变。"
   },
   "nftOptions": {
     "message": "NFT 期权"
@@ -2647,12 +2647,12 @@
     "message": "以前所未有的方式查看您的NFT"
   },
   "notifications1Description": {
-    "message": "MetaMask Mobile 用户现在可以在他们的移动钱包中交换代币。扫描二维码以获取移动应用程序并开始交换。",
+    "message": "NXN Wallet Mobile 用户现在可以在他们的移动钱包中交换代币。扫描二维码以获取移动应用程序并开始交换。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "可以在移动设备上交换了！",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MetaMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use NXN Wallet Swaps on Mobile."
   },
   "notifications20ActionText": {
     "message": "了解更多",
@@ -2670,7 +2670,7 @@
     "message": "试试看"
   },
   "notifications21Description": {
-    "message": "我们已更新 MetaMask 扩展程序中的 Swaps，使其使用起来更加轻松快捷。",
+    "message": "我们已更新 NXN Wallet 扩展程序中的 Swaps，使其使用起来更加轻松快捷。",
     "description": "Description of a notification in the 'See What's New' popup. Describes NFT autodetection feature."
   },
   "notifications21Title": {
@@ -2708,10 +2708,10 @@
   },
   "notifications3ActionText": {
     "message": "了解更多",
-    "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
+    "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the NXN Wallet support website."
   },
   "notifications3Description": {
-    "message": "及时了解 MetaMask 安全最佳实践，并从 MetaMask 官方支持部门获取最新的安全提示。",
+    "message": "及时了解 NXN Wallet 安全最佳实践，并从 NXN Wallet 官方支持部门获取最新的安全提示。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -2723,7 +2723,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "在您的钱包内获取最优惠的代币交换价格。MetaMask 现在将您连接到 Binance 智能链上的多个去中心化交易所聚合器和专业做市商。",
+    "message": "在您的钱包内获取最优惠的代币交换价格。NXN Wallet 现在将您连接到 Binance 智能链上的多个去中心化交易所聚合器和专业做市商。",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -2735,11 +2735,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "从 Chrome 版本91开始，启用我们的 Ledger 支持 (U2F 通用第二因素) 的 API 不再支持硬件钱包。MetaMask 实施了新的 Ledger Live 支持，允许您继续通过 Ledger Live 桌面应用程序连接到您的 Ledger 设备。",
+    "message": "从 Chrome 版本91开始，启用我们的 Ledger 支持 (U2F 通用第二因素) 的 API 不再支持硬件钱包。NXN Wallet 实施了新的 Ledger Live 支持，允许您继续通过 Ledger Live 桌面应用程序连接到您的 Ledger 设备。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "在 Metamask 中与您的 Ledger 账户交互时，将打开一个新选项卡，并且将要求您打开 Ledger Live 应用程序。应用程序打开后，您将被要求允许 WebSocket 连接到您的 MetaMask 账户。就是这样！",
+    "message": "在 NXN Wallet 中与您的 Ledger 账户交互时，将打开一个新选项卡，并且将要求您打开 Ledger Live 应用程序。应用程序打开后，您将被要求允许 WebSocket 连接到您的 NXN Wallet 账户。就是这样！",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -2751,7 +2751,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "MetaMask v10.1.0 包括使用 Ledger 设备时对 EIP-1559 交易的新支持。",
+    "message": "NXN Wallet v10.1.0 包括使用 Ledger 设备时对 EIP-1559 交易的新支持。",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -2767,7 +2767,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "从 MetaMask v10.4.0 开始，您不再需要 Ledger Live 即可将您的 Ledger 设备连接到 MetaMask。",
+    "message": "从 NXN Wallet v10.4.0 开始，您不再需要 Ledger Live 即可将您的 Ledger 设备连接到 NXN Wallet。",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -2788,8 +2788,8 @@
     "message": "👓 我们正在使交易更容易阅读。"
   },
   "notificationsDropLedgerFirefoxDescription": {
-    "message": "Firefox 不再支持 U2F，因此在 Firefox 上，MetaMask 无法使用 Ledger。请尝试在 Google Chrome 上使用 MetaMask。",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "message": "Firefox 不再支持 U2F，因此在 Firefox 上，NXN Wallet 无法使用 Ledger。请尝试在 Google Chrome 上使用 NXN Wallet。",
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use NXN Wallet on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "放弃在 Firefox 上支持 Ledger",
@@ -2812,16 +2812,16 @@
     "message": "了解详情"
   },
   "notificationsOpenBetaSnapsDescriptionOne": {
-    "message": "🎉 我们很高兴宣布推出 MetaMask Snaps 公开测试版！"
+    "message": "🎉 我们很高兴宣布推出 NXN Wallet Snaps 公开测试版！"
   },
   "notificationsOpenBetaSnapsDescriptionThree": {
     "message": "使用开发者社群构建的 snap，个性化您的钱包！"
   },
   "notificationsOpenBetaSnapsDescriptionTwo": {
-    "message": "Snaps 可以帮助您利用 MetaMask 做更多事情，例如连接到更多网络、查看交易见解，以及获取自定义通知。"
+    "message": "Snaps 可以帮助您利用 NXN Wallet 做更多事情，例如连接到更多网络、查看交易见解，以及获取自定义通知。"
   },
   "notificationsOpenBetaSnapsTitle": {
-    "message": "介绍 MetaMask Snaps"
+    "message": "介绍 NXN Wallet Snaps"
   },
   "numberOfNewTokensDetectedPlural": {
     "message": "在此账户中找到$1枚新代币",
@@ -2882,16 +2882,16 @@
     "message": "此数据是汇总数据，因而可以保持匿名，以遵守《通用数据保护条例》（欧盟）2016/679。"
   },
   "onboardingMetametricsDescription": {
-    "message": "MetaMask 希望收集使用数据，以更好地了解我们的用户如何与 MetaMask 交互。这些数据将用于提供服务，包括根据您的使用情况改进服务。"
+    "message": "NXN Wallet 希望收集使用数据，以更好地了解我们的用户如何与 NXN Wallet 交互。这些数据将用于提供服务，包括根据您的使用情况改进服务。"
   },
   "onboardingMetametricsDescription2": {
-    "message": "MetaMask 将会......"
+    "message": "NXN Wallet 将会......"
   },
   "onboardingMetametricsDisagree": {
     "message": "不，谢谢"
   },
   "onboardingMetametricsInfuraTerms": {
-    "message": "* 如您在 MetaMask中 使用 Infura 作为默认的 RPC 提供商，Infura 将在您发送交易时收集您的 IP 地址和以太坊钱包地址。我们不会以允许系统将这两项数据关联起来的方式存储这些信息。如需从数据收集角度进一步了解 MetaMask 和 Infura 如何进行交互，请参阅我们的更新版 $1。如需进一步了解我们的一般隐私准则，请参阅我们的 $2。",
+    "message": "* 如您在 NXN Wallet中 使用 Infura 作为默认的 RPC 提供商，Infura 将在您发送交易时收集您的 IP 地址和以太坊钱包地址。我们不会以允许系统将这两项数据关联起来的方式存储这些信息。如需从数据收集角度进一步了解 NXN Wallet 和 Infura 如何进行交互，请参阅我们的更新版 $1。如需进一步了解我们的一般隐私准则，请参阅我们的 $2。",
     "description": "$1 represents `onboardingMetametricsInfuraTermsPolicyLink`, $2 represents `onboardingMetametricsInfuraTermsPolicy`"
   },
   "onboardingMetametricsInfuraTermsPolicy": {
@@ -2922,7 +2922,7 @@
     "message": "发送匿名的点击和页面浏览事件"
   },
   "onboardingMetametricsTitle": {
-    "message": "请帮助我们改进 MetaMask"
+    "message": "请帮助我们改进 NXN Wallet"
   },
   "onboardingPinExtensionBillboardAccess": {
     "message": "完全访问权限"
@@ -2940,16 +2940,16 @@
     "message": "点击浏览器扩展程序图标"
   },
   "onboardingPinExtensionDescription": {
-    "message": "在您的浏览器上固定 MetaMask，以便访问并轻松查看交易确认。"
+    "message": "在您的浏览器上固定 NXN Wallet，以便访问并轻松查看交易确认。"
   },
   "onboardingPinExtensionDescription2": {
-    "message": "您可以通过点击扩展程序打开 MetaMask，并一键访问您的钱包。"
+    "message": "您可以通过点击扩展程序打开 NXN Wallet，并一键访问您的钱包。"
   },
   "onboardingPinExtensionDescription3": {
     "message": "点击浏览器扩展程序图标即可即时访问它"
   },
   "onboardingPinExtensionLabel": {
-    "message": "固定 MetaMask"
+    "message": "固定 NXN Wallet"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -2958,7 +2958,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "您的 MetaMask 安装完成！"
+    "message": "您的 NXN Wallet 安装完成！"
   },
   "onboardingUsePhishingDetectionDescription": {
     "message": "网络钓鱼检测提醒依赖于与 $1 的通信。jsDeliver 将有权访问您的 IP 地址。查看 $2。",
@@ -2972,7 +2972,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "全屏打开以连接您的 Ledger。",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing NXN Wallet in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "在区块浏览器上打开"
@@ -3006,7 +3006,7 @@
     "description": "Used in the 'permission_rpc' message."
   },
   "outdatedBrowserNotification": {
-    "message": "您的浏览器已过期。如果不更新浏览器，您将无法获取MetaMask的安全补丁和新功能。"
+    "message": "您的浏览器已过期。如果不更新浏览器，您将无法获取NXN Wallet的安全补丁和新功能。"
   },
   "padlock": {
     "message": "挂锁"
@@ -3018,7 +3018,7 @@
     "message": "参加 MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "加入 MetaMetrics ，帮助我们改进 MetaMask"
+    "message": "加入 MetaMetrics ，帮助我们改进 NXN Wallet"
   },
   "password": {
     "message": "密码"
@@ -3027,7 +3027,7 @@
     "message": "密码长度不足"
   },
   "passwordSetupDetails": {
-    "message": "此密码只会在此设备上解锁您的 MetaMask 钱包。MetaMask 无法恢复此密码。"
+    "message": "此密码只会在此设备上解锁您的 NXN Wallet 钱包。NXN Wallet 无法恢复此密码。"
   },
   "passwordStrength": {
     "message": "密码强度：$1",
@@ -3037,7 +3037,7 @@
     "message": "强密码可以提高钱包的安全性，以防设备被盗或被入侵。"
   },
   "passwordTermsWarning": {
-    "message": "我明白 MetaMask 无法为我恢复此密码。$1"
+    "message": "我明白 NXN Wallet 无法为我恢复此密码。$1"
   },
   "passwordsDontMatch": {
     "message": "密码不匹配"
@@ -3095,7 +3095,7 @@
     "description": "The description for the `snap_cronjob` permission"
   },
   "permission_dialog": {
-    "message": "在 MetaMask 中显示对话框窗口。",
+    "message": "在 NXN Wallet 中显示对话框窗口。",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_ethereumAccounts": {
@@ -3268,7 +3268,7 @@
     "message": "切勿与任何人分享您的账户私钥助记词"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "MetaMask 团队绝对不会索要您的账户私钥助记词"
+    "message": "NXN Wallet 团队绝对不会索要您的账户私钥助记词"
   },
   "recoveryPhraseReminderSubText": {
     "message": "您的账户私钥助记词控制您的所有账户。"
@@ -3368,7 +3368,7 @@
     "message": "重置钱包"
   },
   "resetWalletSubHeader": {
-    "message": "MetaMask不会保留密码的副本。如果您在解锁账户时遇到问题，需要重置您的钱包。您可以提供设置钱包时使用的私钥助记词，以进行重置。"
+    "message": "NXN Wallet不会保留密码的副本。如果您在解锁账户时遇到问题，需要重置您的钱包。您可以提供设置钱包时使用的私钥助记词，以进行重置。"
   },
   "resetWalletUsingSRP": {
     "message": "此操作将从此设备中删除您当前的钱包和私钥助记词，以及您编制的账户列表。使用助记词进行重置后，您将会看到一个账户列表（基于用于重置的助记词）。这个新列表将自动包括有余额的账户。您还可以使用之前创建的$1。您导入的自定义账户需要是$2，添加到账户中的任何自定义代币也需要是$3。"
@@ -3377,7 +3377,7 @@
     "message": "在继续之前，请确保您所使用的私钥助记词正确无误。您将无法撤消此操作。"
   },
   "restartMetamask": {
-    "message": "重新启动MetaMask"
+    "message": "重新启动NXN Wallet"
   },
   "restore": {
     "message": "恢复"
@@ -3420,7 +3420,7 @@
     "description": "This is a sentence consisting of link using 'revealSeedWordsSRPName' as $1 and bolded text using 'revealSeedWordsDescription3' as $2."
   },
   "revealSeedWordsDescription2": {
-    "message": "MetaMask 是$1。这意味着您是自己的 SRP 的所有者。",
+    "message": "NXN Wallet 是$1。这意味着您是自己的 SRP 的所有者。",
     "description": "$1 is text link with the message from 'revealSeedWordsNonCustodialWallet'"
   },
   "revealSeedWordsDescription3": {
@@ -3443,7 +3443,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "MetaMask 支持团队绝对不会要求提供此项信息。",
+    "message": "NXN Wallet 支持团队绝对不会要求提供此项信息。",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealTheSeedPhrase": {
@@ -3558,7 +3558,7 @@
     "message": "如果有人要求您的恢复短语，他们可能会试图欺诈您并偷窃您的钱包资金"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "切勿分享您的账户私钥助记词，包括也不能与 MetaMask 分享！"
+    "message": "切勿分享您的账户私钥助记词，包括也不能与 NXN Wallet 分享！"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "什么是账户私钥助记词？"
@@ -3603,10 +3603,10 @@
     "message": "选择一个账户"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "此账户已连接到 MetaMask"
+    "message": "此账户已连接到 NXN Wallet"
   },
   "selectAnAccountHelp": {
-    "message": "选择要在 MetaMask Institutional 使用的托管账户。"
+    "message": "选择要在 NXN Wallet Institutional 使用的托管账户。"
   },
   "selectAnAction": {
     "message": "选择操作"
@@ -3663,7 +3663,7 @@
     "message": "Sepolia测试网络"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "MetaMask 使用这些可信的第三方服务来提高产品可用性和安全性。"
+    "message": "NXN Wallet 使用这些可信的第三方服务来提高产品可用性和安全性。"
   },
   "setApprovalForAll": {
     "message": "设置批准所有"
@@ -3764,7 +3764,7 @@
     "message": "智能兑换已推出！"
   },
   "smartSwapsDescription": {
-    "message": "MetaMask Swaps 变得更加智能！启用智能兑换使得 MetaMask 在编程方面让您的兑换体验更加优化，有助于："
+    "message": "NXN Wallet Swaps 变得更加智能！启用智能兑换使得 NXN Wallet 在编程方面让您的兑换体验更加优化，有助于："
   },
   "smartSwapsErrorNotEnoughFunds": {
     "message": "没有足够的资金进行智能兑换。"
@@ -3784,7 +3784,7 @@
     "description": "This is shown when a snap shows transaction insight information in the confirmation UI. $1 is a link to the snap's settings page with the link text being the name of the snap."
   },
   "snapCreateAccountSubtitle": {
-    "message": "选择如何使用 MetaMask Snaps 来保护您的新账户。"
+    "message": "选择如何使用 NXN Wallet Snaps 来保护您的新账户。"
   },
   "snapCreateAccountTitle": {
     "message": "创建 $1 账户",
@@ -3795,7 +3795,7 @@
     "description": "$1 of the snapCreateAccountTitle"
   },
   "snapCreatedByMetaMask": {
-    "message": "由MetaMask创建"
+    "message": "由NXN Wallet创建"
   },
   "snapDetailAudits": {
     "message": "审核"
@@ -3972,7 +3972,7 @@
     "message": "要查看私钥助记词，您需要答对两个问题"
   },
   "srpSecurityQuizQuestionOneQuestion": {
-    "message": "如果您丢失了私钥助记词，MetaMask..."
+    "message": "如果您丢失了私钥助记词，NXN Wallet..."
   },
   "srpSecurityQuizQuestionOneRightAnswer": {
     "message": "无法帮助您"
@@ -4044,7 +4044,7 @@
     "message": "检索状态日志时出错。"
   },
   "stateLogFileName": {
-    "message": "MetaMask 状态日志"
+    "message": "NXN Wallet 状态日志"
   },
   "stateLogs": {
     "message": "状态日志"
@@ -4065,7 +4065,7 @@
     "message": "关联您的 Lattice1"
   },
   "step1LatticeWalletMsg": {
-    "message": "当您的 Lattice1 设备设置好并在线时，您可以将 MetaMask 与其相关联。解锁您的设备并准备好您的设备 ID。",
+    "message": "当您的 Lattice1 设备设置好并在线时，您可以将 NXN Wallet 与其相关联。解锁您的设备并准备好您的设备 ID。",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -4121,7 +4121,7 @@
   },
   "stxFailureDescription": {
     "message": "突然的市场变化可能导致失败。如果问题仍然存在，请联系$1。",
-    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.metamask.io"
+    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.NXN Wallet.io"
   },
   "stxPendingPrivatelySubmittingSwap": {
     "message": "正在秘密提交您的Swap..."
@@ -4238,7 +4238,7 @@
     "message": "编辑限制"
   },
   "swapEnableDescription": {
-    "message": "这是必须的，并且允许 MetaMask 兑换您的 $1。",
+    "message": "这是必须的，并且允许 NXN Wallet 兑换您的 $1。",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -4256,7 +4256,7 @@
   },
   "swapFailedErrorDescriptionWithSupportLink": {
     "message": "交易有时会失败，我们随时为您提供帮助。如果此问题仍然存在，您可以在 $1 联系我们的客服，以获得进一步的帮助。",
-    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.metamask.io"
+    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.NXN Wallet.io"
   },
   "swapFailedErrorTitle": {
     "message": "交换失败"
@@ -4294,7 +4294,7 @@
     "message": "上一个屏幕上的燃料费用在这两笔交易之间分摊。"
   },
   "swapGasFeesSummary": {
-    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。MetaMask 不会从燃料费用中获利。",
+    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。NXN Wallet 不会从燃料费用中获利。",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippage": {
@@ -4304,12 +4304,12 @@
     "message": "滑点金额非常高。"
   },
   "swapIncludesMMFee": {
-    "message": "包括 $1% 的 MetaMask 费用。",
-    "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
+    "message": "包括 $1% 的 NXN Wallet 费用。",
+    "description": "Provides information about the fee that NXN Wallet takes for swaps. $1 is a decimal number."
   },
   "swapIncludesMetaMaskFeeViewAllQuotes": {
-    "message": "包含$1%的MetaMask费用 – $2",
-    "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
+    "message": "包含$1%的NXN Wallet费用 – $2",
+    "description": "Provides information about the fee that NXN Wallet takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
   },
   "swapLearnMore": {
     "message": "了解有关 Swaps 的更多信息"
@@ -4324,11 +4324,11 @@
     "message": "最大滑点"
   },
   "swapMetaMaskFee": {
-    "message": "MetaMask 费用"
+    "message": "NXN Wallet 费用"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "该报价中会自动计入一笔 $1% 的费用。您支付该费用以换取使用 MetaMask 流动性提供商信息聚合软件的许可证。",
-    "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
+    "message": "该报价中会自动计入一笔 $1% 的费用。您支付该费用以换取使用 NXN Wallet 流动性提供商信息聚合软件的许可证。",
+    "description": "Provides information about the fee that NXN Wallet takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
     "message": "$1 报价。",
@@ -4581,7 +4581,7 @@
     "message": "切换"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "这将切换 MetaMask 中选定的网络到以前添加的网络："
+    "message": "这将切换 NXN Wallet 中选定的网络到以前添加的网络："
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "允许此网站切换网络？"
@@ -4627,7 +4627,7 @@
     "message": "服务条款"
   },
   "termsOfUseAgreeText": {
-    "message": "我同意适用于我使用MetaMask及其所有功能的使用条款"
+    "message": "我同意适用于我使用NXN Wallet及其所有功能的使用条款"
   },
   "termsOfUseFooterText": {
     "message": "请滚动以阅读所有章节"
@@ -4642,7 +4642,7 @@
     "message": "主题"
   },
   "themeDescription": {
-    "message": "选择您喜欢的MetaMask主题。"
+    "message": "选择您喜欢的NXN Wallet主题。"
   },
   "thingsToKeep": {
     "message": "注意事项:"
@@ -4786,7 +4786,7 @@
     "message": "建议的网站"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "编辑以使用 MetaMask 建议的基于最新区块的燃料费用。"
+    "message": "编辑以使用 NXN Wallet 建议的基于最新区块的燃料费用。"
   },
   "transactionDetailGasHeading": {
     "message": "估算的燃料费"
@@ -4801,7 +4801,7 @@
     "message": "燃料费由网络设定，并根据网络流量和交易的复杂性而波动。"
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。MetaMask 不会从燃料费用中获利。"
+    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。NXN Wallet 不会从燃料费用中获利。"
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "金额 + 燃料费"
@@ -4896,7 +4896,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "MetaMask无法启动。可能发生间歇性错误，因此请尝试重新启动扩展程序。"
+    "message": "NXN Wallet无法启动。可能发生间歇性错误，因此请尝试重新启动扩展程序。"
   },
   "trustSiteApprovePermission": {
     "message": "通过授予权限，您允许以下 $1 访问您的资金"
@@ -4918,7 +4918,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect NXN Wallet to Ledger devices."
   },
   "unapproved": {
     "message": "未批准"
@@ -4983,7 +4983,7 @@
     "message": "对智能合约进行解码"
   },
   "use4ByteResolutionDescription": {
-    "message": "为了改善用户体验，我们根据与您交互的智能合约消息，自定义活动选项卡。MetaMask 使用名为 4byte.directory 的服务来对数据进行解码，并向您显示更方便阅读的智能合约版本。这有助于减少您批准恶意智能合约操作的机会，但可能导致您的 IP 地址被共享。"
+    "message": "为了改善用户体验，我们根据与您交互的智能合约消息，自定义活动选项卡。NXN Wallet 使用名为 4byte.directory 的服务来对数据进行解码，并向您显示更方便阅读的智能合约版本。这有助于减少您批准恶意智能合约操作的机会，但可能导致您的 IP 地址被共享。"
   },
   "useMultiAccountBalanceChecker": {
     "message": "账户余额分批请求"
@@ -5088,10 +5088,10 @@
     "message": "您已经成功地保护了您的钱包。请确保您的账户私钥助记词安全和秘密——这是您的责任！"
   },
   "walletCreationSuccessReminder1": {
-    "message": "MetaMask 无法恢复您的账户私钥助记词。"
+    "message": "NXN Wallet 无法恢复您的账户私钥助记词。"
   },
   "walletCreationSuccessReminder2": {
-    "message": "MetaMask 绝对不会索要您的账户私钥助记词。"
+    "message": "NXN Wallet 绝对不会索要您的账户私钥助记词。"
   },
   "walletCreationSuccessReminder3": {
     "message": "对任何人 $1，否则您的资金有被盗风险",
@@ -5142,7 +5142,7 @@
     "message": "探索去中心化应用"
   },
   "welcomeLoginDescription": {
-    "message": "使用您的 MetaMask 登录去中心化应用 - 无需注册。"
+    "message": "使用您的 NXN Wallet 登录去中心化应用 - 无需注册。"
   },
   "welcomeLoginTitle": {
     "message": "迎接您的钱包"
@@ -5151,11 +5151,11 @@
     "message": "让我们开始吧"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "MetaMask 深受数百万人信任，是一款可以让所有人进入 web3 世界的安全钱包。"
+    "message": "NXN Wallet 深受数百万人信任，是一款可以让所有人进入 web3 世界的安全钱包。"
   },
   "whatsNew": {
     "message": "最新动态",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to NXN Wallet."
   },
   "whatsThis": {
     "message": "这是什么？"

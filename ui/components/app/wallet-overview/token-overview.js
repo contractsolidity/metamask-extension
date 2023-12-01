@@ -134,7 +134,7 @@ const TokenOverview = ({ className, token }) => {
       }
       buttons={
         <>
-          {
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
             <IconButton
               className="token-overview__button"
@@ -162,9 +162,9 @@ const TokenOverview = ({ className, token }) => {
               disabled={token.isERC721 || !isBuyableChain}
             />
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
 
-          {
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-mmi)
             <>
               <IconButton
@@ -205,7 +205,7 @@ const TokenOverview = ({ className, token }) => {
               )}
             </>
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
 
           <IconButton
             className="token-overview__button"
@@ -244,7 +244,7 @@ const TokenOverview = ({ className, token }) => {
             data-testid="eth-overview-send"
             disabled={token.isERC721}
           />
-          {isSwapsChain && (
+          {/* {isSwapsChain && (
             <IconButton
               className="token-overview__button"
               Icon={
@@ -290,8 +290,8 @@ const TokenOverview = ({ className, token }) => {
               label={t('swap')}
               tooltipRender={null}
             />
-          )}
-
+          )} */}
+{/*
           {
             ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
             isBridgeChain && (
@@ -330,7 +330,7 @@ const TokenOverview = ({ className, token }) => {
               />
             )
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
         </>
       }
       className={className}

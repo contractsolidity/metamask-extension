@@ -102,7 +102,7 @@ export const SelectActionModal = ({ onClose }) => {
           {t('selectAnAction')}
         </ModalHeader>
         <Box className="select-action-modal__container" marginTop={6}>
-          {
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
             <SelectActionModalItem
               actionIcon={IconName.PlusMinus}
@@ -127,7 +127,7 @@ export const SelectActionModal = ({ onClose }) => {
               }}
             />
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
           {
             ///: BEGIN:ONLY_INCLUDE_IN(build-mmi)
             <SelectActionModalItem
@@ -145,7 +145,7 @@ export const SelectActionModal = ({ onClose }) => {
             />
             ///: END:ONLY_INCLUDE_IN
           }
-          <SelectActionModalItem
+          {/* <SelectActionModalItem
             actionIcon={IconName.SwapHorizontal}
             primaryText={t('swap')}
             secondaryText={t('swapDescription')}
@@ -181,7 +181,7 @@ export const SelectActionModal = ({ onClose }) => {
               onClose();
             }}
             data-testid="select-action-modal-item-swap"
-          />
+          /> */}
           <SelectActionModalItem
             actionIcon={IconName.Arrow2UpRight}
             primaryText={t('send')}
@@ -205,7 +205,7 @@ export const SelectActionModal = ({ onClose }) => {
             }}
             data-testid="select-action-modal-item-send"
           />
-          {
+          {/* {
             ///: BEGIN:ONLY_INCLUDE_IN(build-main,build-beta,build-flask)
             <SelectActionModalItem
               actionIcon={IconName.Arrow2UpRight}
@@ -241,7 +241,7 @@ export const SelectActionModal = ({ onClose }) => {
               }}
             />
             ///: END:ONLY_INCLUDE_IN
-          }
+          } */}
         </Box>
       </ModalContent>
     </Modal>
