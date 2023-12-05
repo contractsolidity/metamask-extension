@@ -659,8 +659,8 @@ export default class AdvancedTab extends PureComponent {
         {this.renderStateLogs()}
         {this.renderResetAccount()}
         {this.renderHexDataOptIn()}
-        {this.renderShowConversionInTestnets()}
-        {this.renderToggleTestNetworks()}
+        {/* {this.renderShowConversionInTestnets()} */}
+        {/* {this.renderToggleTestNetworks()} */}
         {this.renderUseNonceOptIn()}
         {this.renderAutoLockTimeLimit()}
         {this.renderUserDataBackup()}

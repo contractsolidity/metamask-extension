@@ -676,13 +676,13 @@ export default class Home extends PureComponent {
         }}
         footer={
           <>
-            <a
+            {/* <a
               href={ZENDESK_URLS.USER_GUIDE_DAPPS}
               target="_blank"
               rel="noopener noreferrer"
             >
               {t('learnMoreUpperCase')}
-            </a>
+            </a> */}
             <Button
               type="primary"
               onClick={setConnectedStatusPopoverHasBeenShown}

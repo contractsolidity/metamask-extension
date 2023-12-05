@@ -38,6 +38,8 @@ export default function FeeCard({
     switch (chainId) {
       case CHAIN_IDS.MAINNET:
         return t('networkNameEthereum');
+      case CHAIN_IDS.DST:
+        return t('networkNameEthereum');
       case CHAIN_IDS.BSC:
         return t('networkNameBSC');
       case CHAIN_IDS.POLYGON:

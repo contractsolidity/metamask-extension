@@ -496,7 +496,6 @@ export function setupController(
     currentMigrationVersion: stateMetadata.version,
     featureFlags: {},
   });
-
   setupEnsIpfsResolver({
     getCurrentChainId: () =>
       controller.networkController.state.providerConfig.chainId,

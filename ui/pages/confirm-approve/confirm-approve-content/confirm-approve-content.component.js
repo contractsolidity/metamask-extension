@@ -392,9 +392,12 @@ export default class ConfirmApproveContent extends Component {
       this.props;
     const useBlockExplorer =
       rpcPrefs?.blockExplorerUrl ||
-      [...TEST_CHAINS, CHAIN_IDS.MAINNET, CHAIN_IDS.LINEA_MAINNET].includes(
-        chainId,
-      );
+      [
+        ...TEST_CHAINS,
+        CHAIN_IDS.MAINNET,
+        CHAIN_IDS.DST,
+        CHAIN_IDS.LINEA_MAINNET,
+      ].includes(chainId);
 
     const titleTokenDescription = this.getTokenName();
     const tokenIdWrapped = tokenId ? ` (#${tokenId})` : '';

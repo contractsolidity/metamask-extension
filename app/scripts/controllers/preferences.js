@@ -14,6 +14,7 @@ import { KEYRING_SNAPS_REGISTRY_URL } from '../../../shared/constants/app';
 const mainNetworks = {
   [CHAIN_IDS.MAINNET]: true,
   [CHAIN_IDS.LINEA_MAINNET]: true,
+  [CHAIN_IDS.DST]: true,
 };
 
 const testNetworks = {

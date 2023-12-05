@@ -720,6 +720,8 @@ export default class Routes extends Component {
     switch (providerType) {
       case NETWORK_TYPES.MAINNET:
         return t('connectingToMainnet');
+      case NETWORK_TYPES.DST:
+        return t('connectingToMainnet');
       case NETWORK_TYPES.GOERLI:
         return t('connectingToGoerli');
       case NETWORK_TYPES.SEPOLIA:

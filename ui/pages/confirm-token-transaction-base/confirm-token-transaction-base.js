@@ -64,9 +64,12 @@ export default function ConfirmTokenTransactionBase({
   const getTitleTokenDescription = (renderType) => {
     const useBlockExplorer =
       rpcPrefs?.blockExplorerUrl ||
-      [...TEST_CHAINS, CHAIN_IDS.MAINNET, CHAIN_IDS.LINEA_MAINNET].includes(
-        chainId,
-      );
+      [
+        ...TEST_CHAINS,
+        CHAIN_IDS.MAINNET,
+        CHAIN_IDS.DST,
+        CHAIN_IDS.LINEA_MAINNET,
+      ].includes(chainId);
 
     const nftCollection = nftCollections.find(
       (collection) =>

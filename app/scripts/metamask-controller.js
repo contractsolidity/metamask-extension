@@ -146,6 +146,7 @@ import {
   NETWORK_TYPES,
   TEST_NETWORK_TICKER_MAP,
   NetworkStatus,
+  DST_RPC_URL,
 } from '../../shared/constants/network';
 import { HardwareDeviceNames } from '../../shared/constants/hardware-wallets';
 import { KeyringType } from '../../shared/constants/keyring';
@@ -303,6 +304,7 @@ export default class MetamaskController extends EventEmitter {
    */
   constructor(opts) {
     super();
+    console.log(opts, 'opts--------');
 
     const { isFirstMetaMaskControllerSetup } = opts;
 
@@ -467,6 +469,10 @@ export default class MetamaskController extends EventEmitter {
         },
       };
     }
+    console.log(
+      initialNetworkControllerState,
+      'initialNetworkControllerState---',
+    );
     this.networkController = new NetworkController({
       messenger: networkControllerMessenger,
       state: initialNetworkControllerState,
@@ -474,12 +480,21 @@ export default class MetamaskController extends EventEmitter {
       trackMetaMetricsEvent: (...args) =>
         this.metaMetricsController.trackEvent(...args),
     });
-    this.networkController.initializeProvider();
+    this.networkController.initializeProvider().then(() => {
+      this.networkController.upsertNetworkConfiguration(
+        {
+          rpcUrl: DST_RPC_URL,
+          chainId: CHAIN_IDS.DST,
+          ticker: 'DST',
+          nickname: 'DST',
+        },
+        { referrer: 'dst', source: 'dst', setActive: true },
+      );
+    });
     this.provider =
       this.networkController.getProviderAndBlockTracker().provider;
     this.blockTracker =
       this.networkController.getProviderAndBlockTracker().blockTracker;
-
     // TODO: Delete when ready to remove `networkVersion` from provider object
     this.deprecatedNetworkId = null;
     this.updateDeprecatedNetworkId();

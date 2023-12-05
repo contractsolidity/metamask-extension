@@ -112,7 +112,7 @@ const InteractiveReplacementTokenNotification = ({ isVisible }) => {
       <Text variant={TextVariant.bodySm} gap={2} color={TextColor.errorDefault}>
         {t('custodySessionExpired')}
       </Text>
-      <Text variant={TextVariant.bodySm}>
+      {/* <Text variant={TextVariant.bodySm}>
         <ButtonLink
           data-testid="show-modal"
           size={Size.inherit}
@@ -123,7 +123,7 @@ const InteractiveReplacementTokenNotification = ({ isVisible }) => {
         >
           {t('learnMoreUpperCase')}
         </ButtonLink>
-      </Text>
+      </Text> */}
     </Box>
   ) : null;
 };

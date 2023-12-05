@@ -532,14 +532,15 @@ export const ImportTokensModal = ({ onClose }) => {
                             ? 'customTokenWarningInTokenDetectionNetwork'
                             : 'customTokenWarningInNonTokenDetectionNetwork',
                           [
-                            <ButtonLink
-                              key="import-token-fake-token-warning"
-                              rel="noopener noreferrer"
-                              target="_blank"
-                              href={ZENDESK_URLS.TOKEN_SAFETY_PRACTICES}
-                            >
-                              {t('learnScamRisk')}
-                            </ButtonLink>,
+                            // <ButtonLink
+                            //   key="import-token-fake-token-warning"
+                            //   rel="noopener noreferrer"
+                            //   target="_blank"
+                            //   href={ZENDESK_URLS.TOKEN_SAFETY_PRACTICES}
+                            // >
+                            //   {t('learnScamRisk')}
+                            // </ButtonLink>,
+                            '',
                           ],
                         )}
                       </BannerAlert>

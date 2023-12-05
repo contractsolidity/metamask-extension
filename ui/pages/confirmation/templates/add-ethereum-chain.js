@@ -298,7 +298,7 @@ function getValues(pendingApproval, t, actions, history) {
                       }}
                     >
                       {t('someNetworksMayPoseSecurity')}{' '}
-                      <a
+                      {/* <a
                         key="zendesk_page_link"
                         href={ZENDESK_URLS.UNKNOWN_NETWORK}
                         rel="noreferrer"
@@ -306,7 +306,7 @@ function getValues(pendingApproval, t, actions, history) {
                         style={{ color: 'var(--color-primary-default)' }}
                       >
                         {t('learnMoreUpperCase')}
-                      </a>
+                      </a> */}
                     </div>
                   ),
                 },

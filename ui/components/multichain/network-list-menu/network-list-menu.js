@@ -109,6 +109,7 @@ export const NetworkListMenu = ({ onClose }) => {
   }
 
   const generateMenuItems = (desiredNetworks) => {
+    console.log(desiredNetworks, 'desiredNetworks-----');
     return desiredNetworks.map((network) => {
       if (!lineaMainnetReleased && network.providerType === 'linea-mainnet') {
         return null;
@@ -230,7 +231,7 @@ export const NetworkListMenu = ({ onClose }) => {
               generateMenuItems(searchResults)
             )}
           </Box>
-          <Box
+          {/* <Box
             padding={4}
             display={Display.Flex}
             justifyContent={JustifyContent.spaceBetween}
@@ -246,7 +247,7 @@ export const NetworkListMenu = ({ onClose }) => {
             <Box className="multichain-network-list-menu">
               {generateMenuItems(testNetworks)}
             </Box>
-          ) : null}
+          ) : null} */}
           <Box padding={4}>
             <ButtonSecondary
               size={ButtonSecondarySize.Lg}

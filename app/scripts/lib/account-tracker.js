@@ -414,7 +414,7 @@ export default class AccountTracker {
       this.store.updateState({ accounts: newAccounts });
     } catch (error) {
       log.warn(
-        `MetaMask - Account Tracker single call balance fetch failed`,
+        `NXN Wallet - Account Tracker single call balance fetch failed`,
         error,
       );
       Promise.all(addresses.map(this._updateAccount.bind(this)));

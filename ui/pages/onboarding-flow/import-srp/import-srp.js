@@ -52,7 +52,7 @@ export default function ImportSRP({ submitSecretRecoveryPhrase }) {
           {t('accessYourWalletWithSRP')}
         </Typography>
       </div>
-      <div className="import-srp__description">
+      {/* <div className="import-srp__description">
         <Typography variant={TypographyVariant.H4}>
           {t('accessYourWalletWithSRPDescription', [
             <a
@@ -66,7 +66,7 @@ export default function ImportSRP({ submitSecretRecoveryPhrase }) {
             </a>,
           ])}
         </Typography>
-      </div>
+      </div> */}
       <div className="import-srp__actions">
         <Box textAlign={TEXT_ALIGN.LEFT}>
           <SrpInput

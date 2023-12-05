@@ -141,12 +141,12 @@ export const AccountListItemMenu = ({
             address={identity.address}
             textProps={{ variant: TextVariant.bodySm }}
           />
-          <ViewExplorerMenuItem
+          {/* <ViewExplorerMenuItem
             metricsLocation={METRICS_LOCATION}
             closeMenu={closeMenu}
             textProps={{ variant: TextVariant.bodySm }}
             address={identity.address}
-          />
+          /> */}
           {isRemovable ? (
             <MenuItem
               ref={removeAccountItemRef}

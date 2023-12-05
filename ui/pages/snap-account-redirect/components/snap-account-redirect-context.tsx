@@ -56,7 +56,7 @@ const SnapAccountRedirectContent = ({
               severity={BannerAlertSeverity.Danger}
               data-testid="snap-account-redirect-content-blocked-url-banner"
             >
-              <Text>
+              {/* <Text>
                 {t('snapUrlIsBlocked', [
                   <Button
                     variant={ButtonVariant.Link}
@@ -71,7 +71,7 @@ const SnapAccountRedirectContent = ({
                     {t('learnMore')}
                   </Button>,
                 ])}
-              </Text>
+              </Text> */}
             </BannerAlert>
           </Box>
         ) : null}

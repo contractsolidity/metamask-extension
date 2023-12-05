@@ -317,21 +317,21 @@ class SettingsPage extends PureComponent {
         icon: <Icon name={IconName.Notification} />,
         key: ALERTS_ROUTE,
       },
-      {
-        content: t('networks'),
-        icon: <Icon name={IconName.Plug} />,
-        key: NETWORKS_ROUTE,
-      },
-      {
-        content: t('experimental'),
-        icon: <Icon name={IconName.Flask} />,
-        key: EXPERIMENTAL_ROUTE,
-      },
-      {
-        content: t('about'),
-        icon: <Icon name={IconName.Info} />,
-        key: ABOUT_US_ROUTE,
-      },
+      // {
+      //   content: t('networks'),
+      //   icon: <Icon name={IconName.Plug} />,
+      //   key: NETWORKS_ROUTE,
+      // },
+      // {
+      //   content: t('experimental'),
+      //   icon: <Icon name={IconName.Flask} />,
+      //   key: EXPERIMENTAL_ROUTE,
+      // },
+      // {
+      //   content: t('about'),
+      //   icon: <Icon name={IconName.Info} />,
+      //   key: ABOUT_US_ROUTE,
+      // },
     ];
 
     return (

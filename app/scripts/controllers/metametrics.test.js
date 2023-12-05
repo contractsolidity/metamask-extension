@@ -46,7 +46,7 @@ const MOCK_INVALID_TRAITS = {
 
 const DEFAULT_TEST_CONTEXT = {
   app: {
-    name: 'MetaMask Extension',
+    name: 'NXN Wallet Extension',
     version: VERSION,
     extensionId: MOCK_EXTENSION_ID,
   },

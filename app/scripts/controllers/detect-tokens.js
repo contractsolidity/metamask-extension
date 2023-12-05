@@ -176,7 +176,7 @@ export default class DetectTokensController extends PollingControllerOnly {
         );
       } catch (error) {
         warn(
-          `MetaMask - DetectTokensController single call balance fetch failed`,
+          `NXN Wallet - DetectTokensController single call balance fetch failed`,
           error,
         );
         return;

@@ -119,14 +119,14 @@ export const ImportAccount = ({ onActionComplete }) => {
     <>
       <Text variant={TextVariant.bodySm} marginTop={2}>
         {t('importAccountMsg')}{' '}
-        <ButtonLink
+        {/* <ButtonLink
           size={Size.inherit}
           href={ZENDESK_URLS.IMPORTED_ACCOUNTS}
           target="_blank"
           rel="noopener noreferrer"
         >
           {t('here')}
-        </ButtonLink>
+        </ButtonLink> */}
       </Text>
       <Box paddingTop={4} paddingBottom={8}>
         <Label

@@ -14,6 +14,7 @@ import {
   TEST_CHAINS,
   NATIVE_CURRENCY_TOKEN_IMAGE_MAP,
   BUYABLE_CHAINS_MAP,
+  DST_DISPLAY_NAME,
   MAINNET_DISPLAY_NAME,
   BSC_DISPLAY_NAME,
   POLYGON_DISPLAY_NAME,
@@ -26,6 +27,7 @@ import {
   SEPOLIA_DISPLAY_NAME,
   GOERLI_DISPLAY_NAME,
   ETH_TOKEN_IMAGE_URL,
+  DST_TOKEN_IMAGE_URL,
   LINEA_GOERLI_DISPLAY_NAME,
   CURRENCY_SYMBOLS,
   TEST_NETWORK_TICKER_MAP,
@@ -1375,36 +1377,36 @@ export function getTestNetworks(state) {
   const networkConfigurations = getNetworkConfigurations(state) || {};
 
   return [
-    {
-      chainId: CHAIN_IDS.GOERLI,
-      nickname: GOERLI_DISPLAY_NAME,
-      rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.GOERLI],
-      providerType: NETWORK_TYPES.GOERLI,
-      ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.GOERLI],
-      id: NETWORK_TYPES.GOERLI,
-      removable: false,
-    },
-    {
-      chainId: CHAIN_IDS.SEPOLIA,
-      nickname: SEPOLIA_DISPLAY_NAME,
-      rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.SEPOLIA],
-      providerType: NETWORK_TYPES.SEPOLIA,
-      ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.SEPOLIA],
-      id: NETWORK_TYPES.SEPOLIA,
-      removable: false,
-    },
-    {
-      chainId: CHAIN_IDS.LINEA_GOERLI,
-      nickname: LINEA_GOERLI_DISPLAY_NAME,
-      rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.LINEA_GOERLI],
-      rpcPrefs: {
-        imageUrl: LINEA_GOERLI_TOKEN_IMAGE_URL,
-      },
-      providerType: NETWORK_TYPES.LINEA_GOERLI,
-      ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.LINEA_GOERLI],
-      id: NETWORK_TYPES.LINEA_GOERLI,
-      removable: false,
-    },
+    // {
+    //   chainId: CHAIN_IDS.GOERLI,
+    //   nickname: GOERLI_DISPLAY_NAME,
+    //   rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.GOERLI],
+    //   providerType: NETWORK_TYPES.GOERLI,
+    //   ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.GOERLI],
+    //   id: NETWORK_TYPES.GOERLI,
+    //   removable: false,
+    // },
+    // {
+    //   chainId: CHAIN_IDS.SEPOLIA,
+    //   nickname: SEPOLIA_DISPLAY_NAME,
+    //   rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.SEPOLIA],
+    //   providerType: NETWORK_TYPES.SEPOLIA,
+    //   ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.SEPOLIA],
+    //   id: NETWORK_TYPES.SEPOLIA,
+    //   removable: false,
+    // },
+    // {
+    //   chainId: CHAIN_IDS.LINEA_GOERLI,
+    //   nickname: LINEA_GOERLI_DISPLAY_NAME,
+    //   rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.LINEA_GOERLI],
+    //   rpcPrefs: {
+    //     imageUrl: LINEA_GOERLI_TOKEN_IMAGE_URL,
+    //   },
+    //   providerType: NETWORK_TYPES.LINEA_GOERLI,
+    //   ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.LINEA_GOERLI],
+    //   id: NETWORK_TYPES.LINEA_GOERLI,
+    //   removable: false,
+    // },
     // Localhosts
     ...Object.values(networkConfigurations)
       .filter(({ chainId }) => chainId === CHAIN_IDS.LOCALHOST)
@@ -1417,30 +1419,42 @@ export function getNonTestNetworks(state) {
 
   return [
     // Mainnet always first
-    {
-      chainId: CHAIN_IDS.MAINNET,
-      nickname: MAINNET_DISPLAY_NAME,
-      rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.MAINNET],
-      rpcPrefs: {
-        imageUrl: ETH_TOKEN_IMAGE_URL,
-      },
-      providerType: NETWORK_TYPES.MAINNET,
-      ticker: CURRENCY_SYMBOLS.ETH,
-      id: NETWORK_TYPES.MAINNET,
-      removable: false,
-    },
-    {
-      chainId: CHAIN_IDS.LINEA_MAINNET,
-      nickname: LINEA_MAINNET_DISPLAY_NAME,
-      rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.LINEA_MAINNET],
-      rpcPrefs: {
-        imageUrl: LINEA_MAINNET_TOKEN_IMAGE_URL,
-      },
-      providerType: NETWORK_TYPES.LINEA_MAINNET,
-      ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.LINEA_MAINNET],
-      id: NETWORK_TYPES.LINEA_MAINNET,
-      removable: false,
-    },
+    // {
+    //   chainId: CHAIN_IDS.DST,
+    //   nickname: DST_DISPLAY_NAME,
+    //   rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.DST],
+    //   rpcPrefs: {
+    //     imageUrl: DST_TOKEN_IMAGE_URL,
+    //   },
+    //   providerType: NETWORK_TYPES.DST,
+    //   ticker: CURRENCY_SYMBOLS.DST,
+    //   id: NETWORK_TYPES.DST,
+    //   removable: false,
+    // },
+    // {
+    //   chainId: CHAIN_IDS.MAINNET,
+    //   nickname: MAINNET_DISPLAY_NAME,
+    //   rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.MAINNET],
+    //   rpcPrefs: {
+    //     imageUrl: ETH_TOKEN_IMAGE_URL,
+    //   },
+    //   providerType: NETWORK_TYPES.MAINNET,
+    //   ticker: CURRENCY_SYMBOLS.ETH,
+    //   id: NETWORK_TYPES.MAINNET,
+    //   removable: false,
+    // },
+    // {
+    //   chainId: CHAIN_IDS.LINEA_MAINNET,
+    //   nickname: LINEA_MAINNET_DISPLAY_NAME,
+    //   rpcUrl: CHAIN_ID_TO_RPC_URL_MAP[CHAIN_IDS.LINEA_MAINNET],
+    //   rpcPrefs: {
+    //     imageUrl: LINEA_MAINNET_TOKEN_IMAGE_URL,
+    //   },
+    //   providerType: NETWORK_TYPES.LINEA_MAINNET,
+    //   ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.LINEA_MAINNET],
+    //   id: NETWORK_TYPES.LINEA_MAINNET,
+    //   removable: false,
+    // },
     // Custom networks added by the user
     ...Object.values(networkConfigurations)
       .filter(({ chainId }) => ![CHAIN_IDS.LOCALHOST].includes(chainId))
@@ -1454,7 +1468,7 @@ export function getNonTestNetworks(state) {
             network?.rpcPrefs?.imageUrl ??
             CHAIN_ID_TO_NETWORK_IMAGE_URL_MAP[network.chainId],
         },
-        removable: true,
+        removable: network.chainId == CHAIN_IDS.DST ? false : true,
       })),
   ];
 }

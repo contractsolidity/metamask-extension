@@ -166,7 +166,7 @@ export default function NewNetworkInfo() {
                 className="new-network-info__bullet-paragraph__text"
               >
                 {t('attemptSendingAssets')}{' '}
-                <a
+                {/* <a
                   href="https://metamask.zendesk.com/hc/en-us/articles/4404424659995"
                   target="_blank"
                   rel="noreferrer"
@@ -179,7 +179,7 @@ export default function NewNetworkInfo() {
                   >
                     {t('learnMoreUpperCase')}
                   </Text>
-                </a>
+                </a> */}
               </Text>
             </Box>
             {!autoDetectToken || !tokenDetectionSupported ? (

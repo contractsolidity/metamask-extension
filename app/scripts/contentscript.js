@@ -97,7 +97,7 @@ function setupPhishingPageStreams() {
   phishingPageMux.setMaxListeners(25);
 
   pump(phishingPageMux, phishingPageStream, phishingPageMux, (err) =>
-    logStreamDisconnectWarning('MetaMask Inpage Multiplex', err),
+    logStreamDisconnectWarning('NXN Wallet Inpage Multiplex', err),
   );
 
   phishingPageChannel = phishingPageMux.createStream(PHISHING_SAFELIST);
@@ -115,7 +115,7 @@ const setupPhishingExtStreams = () => {
   phishingExtMux.setMaxListeners(25);
 
   pump(phishingExtMux, phishingExtStream, phishingExtMux, (err) => {
-    logStreamDisconnectWarning('MetaMask Background Multiplex', err);
+    logStreamDisconnectWarning('NXN Wallet Background Multiplex', err);
     window.postMessage(
       {
         target: PHISHING_WARNING_PAGE, // the post-message-stream "target"
@@ -233,7 +233,7 @@ const setupPageStreams = () => {
   pageMux.setMaxListeners(25);
 
   pump(pageMux, pageStream, pageMux, (err) =>
-    logStreamDisconnectWarning('MetaMask Inpage Multiplex', err),
+    logStreamDisconnectWarning('NXN Wallet Inpage Multiplex', err),
   );
 
   pageChannel = pageMux.createStream(PROVIDER);
@@ -255,7 +255,7 @@ const setupExtensionStreams = () => {
   extensionMux.ignoreStream(LEGACY_PUBLIC_CONFIG); // TODO:LegacyProvider: Delete
 
   pump(extensionMux, extensionStream, extensionMux, (err) => {
-    logStreamDisconnectWarning('MetaMask Background Multiplex', err);
+    logStreamDisconnectWarning('NXN Wallet Background Multiplex', err);
     notifyInpageOfStreamFailure();
   });
 
@@ -305,7 +305,7 @@ const setupLegacyPageStreams = () => {
   legacyPageMux.setMaxListeners(25);
 
   pump(legacyPageMux, legacyPageStream, legacyPageMux, (err) =>
-    logStreamDisconnectWarning('MetaMask Legacy Inpage Multiplex', err),
+    logStreamDisconnectWarning('NXN Wallet Legacy Inpage Multiplex', err),
   );
 
   legacyPageMuxLegacyProviderChannel =
@@ -326,7 +326,7 @@ const setupLegacyExtensionStreams = () => {
     notificationTransformStream,
     legacyExtMux,
     (err) => {
-      logStreamDisconnectWarning('MetaMask Background Legacy Multiplex', err);
+      logStreamDisconnectWarning('NXN Wallet Background Legacy Multiplex', err);
       notifyInpageOfStreamFailure();
     },
   );

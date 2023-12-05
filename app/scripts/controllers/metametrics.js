@@ -432,11 +432,11 @@ export default class MetaMetricsController {
     const queryString = new URLSearchParams(query);
 
     // this.extension not currently defined in tests
-    if (this.extension && this.extension.runtime) {
-      this.extension.runtime.setUninstallURL(
-        `${EXTENSION_UNINSTALL_URL}?${queryString}`,
-      );
-    }
+    // if (this.extension && this.extension.runtime) {
+    //   this.extension.runtime.setUninstallURL(
+    //     `${EXTENSION_UNINSTALL_URL}?${queryString}`,
+    //   );
+    // }
   }
 
   /**
@@ -675,7 +675,7 @@ export default class MetaMetricsController {
 
     return {
       app: {
-        name: 'MetaMask Extension',
+        name: 'NXN Wallet Extension',
         version: this.version,
         ///: BEGIN:ONLY_INCLUDE_IN(build-mmi)
         ...mmiProps,

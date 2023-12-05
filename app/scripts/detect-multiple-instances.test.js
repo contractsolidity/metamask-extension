@@ -102,7 +102,7 @@ describe('multiple instances running detector', function () {
 
       assert(
         console.warn.calledWithExactly(
-          'Warning! You have multiple instances of MetaMask running!',
+          'Warning! You have multiple instances of NXN Wallet running!',
         ),
       );
     });

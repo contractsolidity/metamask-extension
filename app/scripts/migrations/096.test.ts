@@ -125,6 +125,7 @@ describe('migration #96', () => {
           incomingTransactionsPreferences: {
             [CHAIN_IDS.MAINNET]: showIncomingTransactionsValue,
             [CHAIN_IDS.LINEA_MAINNET]: showIncomingTransactionsValue,
+            [CHAIN_IDS.DST]: showIncomingTransactionsValue,
             [networkConfigurations['network-configuration-id-1'].chainId]:
               showIncomingTransactionsValue,
             [networkConfigurations['network-configuration-id-2'].chainId]:

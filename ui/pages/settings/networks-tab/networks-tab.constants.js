@@ -4,6 +4,7 @@ import {
   CURRENCY_SYMBOLS,
   CHAIN_IDS,
   NETWORK_TYPES,
+  DST_RPC_URL,
 } from '../../../../shared/constants/network';
 
 const defaultNetworksData = [
@@ -65,6 +66,15 @@ const defaultNetworksData = [
     }),
     chainId: CHAIN_IDS.LINEA_MAINNET,
     ticker: CURRENCY_SYMBOLS.ETH,
+    blockExplorerUrl: 'https://lineascan.build',
+  },
+  {
+    labelKey: NETWORK_TYPES.DST,
+    iconColor: '#121212',
+    providerType: NETWORK_TYPES.DST,
+    rpcUrl: DST_RPC_URL,
+    chainId: CHAIN_IDS.DST,
+    ticker: CURRENCY_SYMBOLS.DST,
     blockExplorerUrl: 'https://lineascan.build',
   },
 ];

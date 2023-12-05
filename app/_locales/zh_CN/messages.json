@@ -5195,5 +5195,11 @@
   },
   "zeroGasPriceOnSpeedUpError": {
     "message": "加速时零燃料价格"
+  },
+  "addImportAccount": {
+    "message": "添加帐户或硬件钱包"
+  },
+  "addNewAccount": {
+    "message": "添加新帐户"
   }
 }

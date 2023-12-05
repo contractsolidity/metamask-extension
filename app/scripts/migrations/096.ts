@@ -57,7 +57,11 @@ function transformState(state: Record<string, unknown>) {
       (network) => network.chainId,
     );
 
-  const mainNetworks = [CHAIN_IDS.MAINNET, CHAIN_IDS.LINEA_MAINNET];
+  const mainNetworks = [
+    CHAIN_IDS.MAINNET,
+    CHAIN_IDS.LINEA_MAINNET,
+    CHAIN_IDS.DST,
+  ];
   const testNetworks = [
     CHAIN_IDS.GOERLI,
     CHAIN_IDS.SEPOLIA,

@@ -112,15 +112,15 @@ export default class SendContent extends Component {
             onClick: acknowledgeRecipientWarning,
           }}
           message={t('sendingToTokenContractWarning', [
-            <a
-              key="contractWarningSupport"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="send__warning-container__link"
-              href={CONTRACT_ADDRESS_LINK}
-            >
-              {t('learnMoreUpperCase')}
-            </a>,
+            // <a
+            //   key="contractWarningSupport"
+            //   target="_blank"
+            //   rel="noopener noreferrer"
+            //   className="send__warning-container__link"
+            //   href={CONTRACT_ADDRESS_LINK}
+            // >
+            //   {t('learnMoreUpperCase')}
+            // </a>,
           ])}
           roundedButtons
         />

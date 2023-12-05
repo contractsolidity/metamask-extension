@@ -110,11 +110,11 @@ export const GlobalMenu = ({ closeMenu, anchorElement }) => {
         closeMenu={closeMenu}
         address={address}
       />
-      <ViewExplorerMenuItem
+      {/* <ViewExplorerMenuItem
         metricsLocation={METRICS_LOCATION}
         closeMenu={closeMenu}
         address={address}
-      />
+      /> */}
       <Box
         borderColor={BorderColor.borderMuted}
         width={BlockSize.Full}
@@ -221,7 +221,7 @@ export const GlobalMenu = ({ closeMenu, anchorElement }) => {
         ) : null
         ///: END:ONLY_INCLUDE_IN(snaps)
       }
-      {
+      {/* {
         ///: BEGIN:ONLY_INCLUDE_IN(snaps)
         <MenuItem
           iconName={IconName.Snaps}
@@ -234,8 +234,8 @@ export const GlobalMenu = ({ closeMenu, anchorElement }) => {
           {t('snaps')}
         </MenuItem>
         ///: END:ONLY_INCLUDE_IN(snaps)
-      }
-      <MenuItem
+      } */}
+      {/* <MenuItem
         iconName={IconName.MessageQuestion}
         onClick={() => {
           global.platform.openTab({ url: supportLink });
@@ -259,7 +259,7 @@ export const GlobalMenu = ({ closeMenu, anchorElement }) => {
         data-testid="global-menu-support"
       >
         {supportText}
-      </MenuItem>
+      </MenuItem> */}
       <MenuItem
         iconName={IconName.Setting}
         disabled={hasUnapprovedTransactions}

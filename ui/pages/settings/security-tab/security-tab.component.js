@@ -316,14 +316,14 @@ export default class SecurityTab extends PureComponent {
           <div className="settings-page__content-description">
             {t('chooseYourNetworkDescription', [
               // TODO: Update to use real link
-              <a
-                href={CONSENSYS_PRIVACY_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                key="cyn-consensys-privacy-link"
-              >
-                {t('privacyMsg')}
-              </a>,
+              // <a
+              //   href={CONSENSYS_PRIVACY_LINK}
+              //   target="_blank"
+              //   rel="noopener noreferrer"
+              //   key="cyn-consensys-privacy-link"
+              // >
+              //   {t('privacyMsg')}
+              // </a>,
             ])}
           </div>
         </div>
@@ -890,21 +890,21 @@ export default class SecurityTab extends PureComponent {
         <span className="settings-page__security-tab-sub-header">
           {this.context.t('transactions')}
         </span>
-        <div className="settings-page__content-padded">
+        {/* <div className="settings-page__content-padded">
           {this.renderCurrencyRateCheckToggle()}
           {this.renderIncomingTransactionsOptIn()}
-        </div>
+        </div> */}
 
         <span className="settings-page__security-tab-sub-header">
           {this.context.t('networkProvider')}
         </span>
         <div className="settings-page__content-padded">
           {this.renderChooseYourNetworkButton()}
-          {this.renderSafeChainsListValidationToggle()}
-          {this.renderIpfsGatewayControl()}
+          {/* {this.renderSafeChainsListValidationToggle()}
+          {this.renderIpfsGatewayControl()} */}
         </div>
 
-        <span className="settings-page__security-tab-sub-header">
+        {/* <span className="settings-page__security-tab-sub-header">
           {this.context.t('tokenAutoDetection')}
         </span>
         <div className="settings-page__content-padded">
@@ -912,7 +912,7 @@ export default class SecurityTab extends PureComponent {
           {this.renderBatchAccountBalanceRequestsToggle()}
           {this.renderDisplayNftMediaToggle()}
           {this.renderNftDetectionToggle()}
-        </div>
+        </div> */}
 
         {
           ///: BEGIN:ONLY_INCLUDE_IN(petnames)
@@ -927,12 +927,12 @@ export default class SecurityTab extends PureComponent {
           ///: END:ONLY_INCLUDE_IN
         }
 
-        <span className="settings-page__security-tab-sub-header">
+        {/* <span className="settings-page__security-tab-sub-header">
           {this.context.t('metrics')}
         </span>
         <div className="settings-page__content-padded">
           {this.renderMetaMetricsOptIn()}
-        </div>
+        </div> */}
       </div>
     );
   }

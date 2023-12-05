@@ -33,7 +33,7 @@ type RPCPreferences = {
   /**
    * A URL for the block explorer for the RPC's network
    */
-  blockExplorerUrl: `https://${string}`;
+  blockExplorerUrl: string;
   /**
    * A image reflecting the asset symbol for the network
    */
@@ -55,7 +55,7 @@ export type RPCDefinition = {
   /**
    * The URL for the client to send network requests to
    */
-  rpcUrl: `https://${string}`;
+  rpcUrl: string;
   /**
    * The Currency Symbol for the network
    */
@@ -93,6 +93,7 @@ export const NETWORK_TYPES = {
   GOERLI: 'goerli',
   LOCALHOST: 'localhost',
   MAINNET: 'mainnet',
+  DST: 'dst',
   RPC: 'rpc',
   SEPOLIA: 'sepolia',
   LINEA_GOERLI: 'linea-goerli',
@@ -113,6 +114,7 @@ export const NETWORK_NAMES = {
  * those that we have added custom code to support our feature set.
  */
 export const CHAIN_IDS = {
+  DST: '0x2328',
   MAINNET: '0x1',
   GOERLI: '0x5',
   LOCALHOST: '0x539',
@@ -152,6 +154,7 @@ export const CHAIN_IDS = {
  */
 export const MAX_SAFE_CHAIN_ID = 4503599627370476;
 
+export const DST_DISPLAY_NAME = 'DST';
 export const MAINNET_DISPLAY_NAME = 'Ethereum Mainnet';
 export const GOERLI_DISPLAY_NAME = 'Goerli';
 export const SEPOLIA_DISPLAY_NAME = 'Sepolia';
@@ -194,6 +197,7 @@ export const LINEA_GOERLI_RPC_URL = getRpcUrl({
 export const LINEA_MAINNET_RPC_URL = getRpcUrl({
   network: NETWORK_TYPES.LINEA_MAINNET,
 });
+export const DST_RPC_URL = 'http://192.168.10.136:8545';
 export const LOCALHOST_RPC_URL = 'http://localhost:8545';
 
 /**
@@ -211,6 +215,7 @@ export const CURRENCY_SYMBOLS = {
   DAI: 'DAI',
   GNOSIS: 'XDAI',
   ETH: 'ETH',
+  DST: 'DST',
   FANTOM: 'FTM',
   HARMONY: 'ONE',
   PALM: 'PALM',
@@ -227,6 +232,7 @@ export const CURRENCY_SYMBOLS = {
 } as const;
 
 export const ETH_TOKEN_IMAGE_URL = './images/eth_logo.png';
+export const DST_TOKEN_IMAGE_URL = './images/dst_logo.png';
 export const LINEA_GOERLI_TOKEN_IMAGE_URL = './images/linea-logo-testnet.png';
 export const LINEA_MAINNET_TOKEN_IMAGE_URL = './images/linea-logo-mainnet.png';
 export const TEST_ETH_TOKEN_IMAGE_URL = './images/black-eth-logo.svg';
@@ -246,6 +252,7 @@ export const BASE_TOKEN_IMAGE_URL = './images/base.png';
 
 export const INFURA_PROVIDER_TYPES = [
   NETWORK_TYPES.MAINNET,
+  NETWORK_TYPES.DST,
   NETWORK_TYPES.GOERLI,
   NETWORK_TYPES.SEPOLIA,
   NETWORK_TYPES.LINEA_GOERLI,
@@ -265,7 +272,7 @@ const typedCapitalize = <K extends string>(k: K): Capitalize<K> =>
 export const TEST_NETWORK_TICKER_MAP: {
   [K in Exclude<
     NetworkType,
-    'localhost' | 'mainnet' | 'rpc' | 'linea-mainnet'
+    'localhost' | 'mainnet' | 'rpc' | 'linea-mainnet' | 'dst'
   >]: string;
 } = {
   [NETWORK_TYPES.GOERLI]: `${typedCapitalize(NETWORK_TYPES.GOERLI)}${
@@ -331,6 +338,7 @@ export const NETWORK_TO_NAME_MAP = {
   [NETWORK_TYPES.LINEA_GOERLI]: LINEA_GOERLI_DISPLAY_NAME,
   [NETWORK_TYPES.LINEA_MAINNET]: LINEA_MAINNET_DISPLAY_NAME,
   [NETWORK_TYPES.LOCALHOST]: LOCALHOST_DISPLAY_NAME,
+  [NETWORK_TYPES.DST]: DST_DISPLAY_NAME,
 
   [CHAIN_IDS.GOERLI]: GOERLI_DISPLAY_NAME,
   [CHAIN_IDS.SEPOLIA]: SEPOLIA_DISPLAY_NAME,
@@ -342,6 +350,7 @@ export const NETWORK_TO_NAME_MAP = {
 
 export const CHAIN_ID_TO_TYPE_MAP = {
   [CHAIN_IDS.MAINNET]: NETWORK_TYPES.MAINNET,
+  [CHAIN_IDS.DST]: NETWORK_TYPES.DST,
   [CHAIN_IDS.GOERLI]: NETWORK_TYPES.GOERLI,
   [CHAIN_IDS.SEPOLIA]: NETWORK_TYPES.SEPOLIA,
   [CHAIN_IDS.LINEA_GOERLI]: NETWORK_TYPES.LINEA_GOERLI,
@@ -356,9 +365,11 @@ export const CHAIN_ID_TO_RPC_URL_MAP = {
   [CHAIN_IDS.MAINNET]: MAINNET_RPC_URL,
   [CHAIN_IDS.LINEA_MAINNET]: LINEA_MAINNET_RPC_URL,
   [CHAIN_IDS.LOCALHOST]: LOCALHOST_RPC_URL,
+  [CHAIN_IDS.DST]: DST_RPC_URL,
 } as const;
 
 export const CHAIN_ID_TO_NETWORK_IMAGE_URL_MAP = {
+  [CHAIN_IDS.DST]: DST_TOKEN_IMAGE_URL,
   [CHAIN_IDS.MAINNET]: ETH_TOKEN_IMAGE_URL,
   [CHAIN_IDS.LINEA_GOERLI]: LINEA_GOERLI_TOKEN_IMAGE_URL,
   [CHAIN_IDS.LINEA_MAINNET]: LINEA_MAINNET_TOKEN_IMAGE_URL,
@@ -385,6 +396,7 @@ export const CHAIN_ID_TO_ETHERS_NETWORK_NAME_MAP = {
 
 export const NATIVE_CURRENCY_TOKEN_IMAGE_MAP = {
   [CURRENCY_SYMBOLS.ETH]: ETH_TOKEN_IMAGE_URL,
+  [CURRENCY_SYMBOLS.DST]: DST_TOKEN_IMAGE_URL,
   [CURRENCY_SYMBOLS.TEST_ETH]: TEST_ETH_TOKEN_IMAGE_URL,
   [CURRENCY_SYMBOLS.BNB]: BNB_TOKEN_IMAGE_URL,
   [CURRENCY_SYMBOLS.MATIC]: MATIC_TOKEN_IMAGE_URL,
@@ -510,6 +522,7 @@ const BUYABLE_CHAIN_ETHEREUM_NETWORK_NAME = 'ethereum';
 export const BUYABLE_CHAINS_MAP: {
   [K in Exclude<
     ChainId,
+    | typeof CHAIN_IDS.DST
     | typeof CHAIN_IDS.LOCALHOST
     | typeof CHAIN_IDS.OPTIMISM_TESTNET
     | typeof CHAIN_IDS.BASE_TESTNET
@@ -672,6 +685,16 @@ export const FEATURED_RPCS: RPCDefinition[] = [
     rpcPrefs: {
       blockExplorerUrl: 'https://explorer.zksync.io/',
       imageUrl: ZK_SYNC_ERA_TOKEN_IMAGE_URL,
+    },
+  },
+  {
+    chainId: CHAIN_IDS.DST,
+    nickname: DST_DISPLAY_NAME,
+    rpcUrl: DST_RPC_URL,
+    ticker: CURRENCY_SYMBOLS.DST,
+    rpcPrefs: {
+      blockExplorerUrl: '',
+      imageUrl: DST_TOKEN_IMAGE_URL,
     },
   },
   {

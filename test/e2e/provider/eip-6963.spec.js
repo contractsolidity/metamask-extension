@@ -72,7 +72,7 @@ describe('EIP-6963 Provider', function () {
             type: 'eip6963:announceProvider',
             detail: {
               info: {
-                name: 'MetaMask Main',
+                name: 'NXN Wallet',
                 rdns: 'io.metamask',
               },
               provider: true,

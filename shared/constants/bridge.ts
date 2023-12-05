@@ -2,6 +2,7 @@ import { CHAIN_IDS } from './network';
 
 export const ALLOWED_BRIDGE_CHAIN_IDS = [
   CHAIN_IDS.MAINNET,
+  CHAIN_IDS.DST,
   CHAIN_IDS.BSC,
   CHAIN_IDS.POLYGON,
   CHAIN_IDS.ZKSYNC_ERA,

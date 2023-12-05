@@ -171,7 +171,7 @@ export default class SwapsController {
       typeof refreshRates.quotesPrefetching !== 'number'
     ) {
       throw new Error(
-        `MetaMask - invalid response for refreshRates: ${response}`,
+        `NXN Wallet - invalid response for refreshRates: ${response}`,
       );
     }
     // We presently use milliseconds in the UI.

@@ -38,6 +38,7 @@ export function isPrefixedFormattedHexString(value: unknown) {
 export function isTokenDetectionEnabledForNetwork(chainId: string | undefined) {
   switch (chainId) {
     case CHAIN_IDS.MAINNET:
+    case CHAIN_IDS.DST:
     case CHAIN_IDS.BSC:
     case CHAIN_IDS.POLYGON:
     case CHAIN_IDS.AVALANCHE:
